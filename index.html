@@ -26,10 +26,12 @@
             $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
             $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
             var sheet = new CSSStyleSheet;
+	    var shit = new CSSStyleSheet;
             // manage box height from here
             sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 520px }`);
-	    sheet.replaceSync( `div.chat-wrapper { bottom: 85px }`);
+	    shit.replaceSync( `div.chat-wrapper { bottom: 85px }`);
             $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+	    $r2.shadowRoot.adoptedStyleSheets = [ shit ];
       		  var sheet = new CSSStyleSheet;
 			      sheet.replaceSync( `button#widgetIcon{ right: 30px }`)
 			      $r1.shadowRoot.adoptedStyleSheets = [ sheet ];
