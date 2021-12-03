@@ -15,26 +15,7 @@
             --df-messenger-send-icon: #878fac;
             --df-messenger-user-message: #d9ffc0;     
             }
-         </style>
-         <!-- Jquery CDN -->
-         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-         <script>
-            //To minimise the height of chatbox
-            $(document).ready(function() {
-                window.addEventListener('dfMessengerLoaded', function (event) {
-                $r1 = document.querySelector("df-messenger");
-                $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-                $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
-                var sheet = new CSSStyleSheet;
-                // manage box height from here
-                sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
-                $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-              	var sheet = new CSSStyleSheet;
-             	sheet.replaceSync( `button#widgetIcon{ right: 20px }`)
-             	$r1.shadowRoot.adoptedStyleSheets = [ sheet ];
-                });
-            });
-         </script>
+	      </style>
       </div>
       <meta name="description" content="MOHAN Foundation - Contact Us.">
       <meta name="keywords" content="Contact Us, MOHAN Foundation Locations,  MOHAN Foundation">
