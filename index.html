@@ -95,12 +95,22 @@
     }
     </style>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  intent="WELCOME"
-  chat-title="Mohan_foundation_bot"
-  agent-id="766c04f3-4d40-48df-8a53-97493633b06d"
-  language-code="en"
-></df-messenger>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Mohan_foundation_bot"
+      agent-id="766c04f3-4d40-48df-8a53-97493633b06d"
+      language-code="en"
+    ></df-messenger>
+    <style>
+  	df-messenger {
+   		--df-messenger-bot-message: white;
+   		--df-messenger-button-titlebar-color: #116E11;
+   		--df-messenger-chat-background-color: #ede7de;
+   		--df-messenger-font-color: black;
+   		--df-messenger-send-icon: #878fac;
+   		--df-messenger-user-message: #d9ffc0;     
+  }
+</style>
     
 </head>
 <body>
