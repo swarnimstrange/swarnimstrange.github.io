@@ -1,1321 +1,1250 @@
 <!DOCTYPE html>
 <html data-env="healthinfo" lang="en">
-<head>
-<title>MOHAN Foundation - Contact Us</title>
-<div>
-   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger agent-id='766c04f3-4d40-48df-8a53-97493633b06d' chat-icon='https://i.ibb.co/GWZFGBJ/mf-small.png' chat-title='🎗 How can I help you?' intent='WELCOME' language-code='en'
-    ></df-messenger>
-    <style>
-  	df-messenger {
-   		--df-messenger-bot-message: white;
-   		--df-messenger-button-titlebar-color: #116E11;
-   		--df-messenger-chat-background-color: #ede7de;
-   		--df-messenger-font-color: black;
-   		--df-messenger-send-icon: #878fac;
-   		--df-messenger-user-message: #d9ffc0;     
-  }
-</style>
-    <!-- Jquery CDN -->
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-    <script>
-        //To minimise the height of chatbox
-        $(document).ready(function() {
-            window.addEventListener('dfMessengerLoaded', function (event) {
-            $r1 = document.querySelector("df-messenger");
-            $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-            $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
-            var sheet = new CSSStyleSheet;
-            // manage box height from here
-            sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
-            $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-      		  var sheet = new CSSStyleSheet;
-			      sheet.replaceSync( `button#widgetIcon{ right: 100px }`)
-			      $r1.shadowRoot.adoptedStyleSheets = [ sheet ];
+   <head>
+      <title>MOHAN Foundation - Contact Us</title>
+      <div>
+	 <div>
+         <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+         <df-messenger agent-id='766c04f3-4d40-48df-8a53-97493633b06d' chat-icon='https://i.ibb.co/GWZFGBJ/mf-small.png' chat-title='🎗 How can I help you?' intent='WELCOME' language-code='en'
+            ></df-messenger>
+         <style>
+            df-messenger {
+            --df-messenger-bot-message: white;
+            --df-messenger-button-titlebar-color: #116E11;
+            --df-messenger-chat-background-color: #ede7de;
+            --df-messenger-font-color: black;
+            --df-messenger-send-icon: #878fac;
+            --df-messenger-user-message: #d9ffc0;     
+            }
+         </style>
+	      </div>
+         <!-- Jquery CDN -->
+	  <div>
+         <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+         <script>
+            //To minimise the height of chatbox
+            $(document).ready(function() {
+                window.addEventListener('dfMessengerLoaded', function (event) {
+                $r1 = document.querySelector("df-messenger");
+                $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+                $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+                var sheet = new CSSStyleSheet;
+                // manage box height from here
+                sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
+                $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+              var sheet = new CSSStyleSheet;
+             sheet.replaceSync( `button#widgetIcon{ right: 20px }`)
+             $r1.shadowRoot.adoptedStyleSheets = [ sheet ];
+                });
             });
-        });
-    </script>
-	  </div>
-
-<meta name="description" content="MOHAN Foundation - Contact Us.">
-<meta name="keywords" content="Contact Us, MOHAN Foundation Locations,  MOHAN Foundation">
-<style type="text/css">
-.donor-menories-bgnew{background:#f6f6f6;padding:15px;border:2px solid #f0f0f0;border-radius:3px;height:290px;}.donor-menories-bgnew>.media-left>a>img{border:5px solid #999594;border-radius:3px;padding:3px}.donor-menories-bgnew>.media-left>img{height:100px;width:125px}@media(max-width:360px){.donor-menories-bgnew{}}.marginBottom-0{margin-bottom:0}
-</style>
-<script src="https://static.dialogflow.com/common/messenger/webcomponentsjs/2.1.3/custom-elements-es5-adapter.js"></script><script src="https://static.dialogflow.com/common/messenger/webcomponentsjs/2.1.3/webcomponents-loader.js"></script><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
-.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
-.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style><style type="text/css">:root{--df-messenger-bot-message:#fff;--df-messenger-button-titlebar-color:#42a5f5;--df-messenger-button-titlebar-font-color:#fff;--df-messenger-chat-background-color:#fafafa;--df-messenger-font-color:rgba(0,0,0,.87);--df-messenger-input-box-color:#fff;--df-messenger-input-font-color:rgba(0,0,0,.87);--df-messenger-input-placeholder-font-color:#757575;--df-messenger-minimized-chat-close-icon-color:rgba(0,0,0,.87);--df-messenger-send-icon:#42a5f5;--df-messenger-user-message:#ddd;--df-messenger-chip-color:#fff;--df-messenger-chip-border-color:#e0e0e0}</style><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></head>
-<body style="background-image: url(&quot;includes-rwd/images/bacground_03.jpg&quot;);" data-new-gr-c-s-check-loaded="14.1040.0" data-gr-ext-installed="">
-<script src="https://connect.facebook.net/en_GB/sdk.js?hash=f72fca8ed6403021659aeec6aeef02af" async="" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
-<link href="https://www.mohanfoundation.org/includes-rwd/css/bootstrap.css" rel="stylesheet">
-<link href="https://www.mohanfoundation.org/includes-rwd/css/manul.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-<link rel="stylesheet" href="https://www.mohanfoundation.org/css/icons.css">
-<link rel="stylesheet" href="https://www.mohanfoundation.org/css/style.css" type="text/css">
-<link rel="stylesheet" href="https://www.mohanfoundation.org/css/main.css" type="text/css">
-<link href="https://www.mohanfoundation.org/css/responsive.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="https://www.mohanfoundation.org/css/colors/color.css" title="color1">
-<link rel="stylesheet" type="text/css" href="https://www.mohanfoundation.org/css/manul.css" title="color1">
-<script type="text/javascript">
-
-function changemysize(myvalue)
-// this function is called by the user clicking on a text size choice
-{
-// find the div to apply the text resizing to
-var div = document.getElementById("mymain");
-// apply the text size change
-div.style.fontSize = myvalue + "px";
-// store the text size choice into a cookie
-document.cookie="mysize=" + myvalue;
-}
-
-function getmycookie(myname)
-// this function is called by the function mydefaultsize()
-// this function merely looks for any previously set cookie and then returns its value
-{
-// if any cookies have been stored then
-if (document.cookie.length>0)
-  {
-// where does our cookie begin its existence within the array of cookies  
-  mystart=document.cookie.indexOf(myname + "=");
-// if we found our cookie name within the array then
-  if (mystart!=-1)
-    {
-// lets move to the end of the name thus the beginning of the value
-// the '+1' grabs the '=' symbol also
-    mystart=mystart + myname.length+1;
-// because our document is only storing a single cookie, the end of the cookie is found easily
-    myend=document.cookie.length;
-// return the value of the cookie which exists after the cookie name and before the end of the cookie
-    return document.cookie.substring(mystart,myend);
-    }
-  }
-// if we didn't find a cookie then return nothing  
-return "";
-}
-
-function mydefaultsize(){
-// this function is called by the body onload event
-// this function is used by all sub pages visited by the user after the main page
-var div = document.getElementById("mymain");
-// call the function getmycookie() and pass it the name of the cookie we are searching for
-// if we found the cookie then
-	if (getmycookie("mysize")>0)
-	{
-// apply the text size change	
-	div.style.fontSize = getmycookie("mysize") + "px";
-	}
-}
-
-
- 
-</script>
-<script>
-document.addEventListener('contextmenu', event => event.preventDefault());
-</script>
-<style>
-	    @media print
-{
-.noprint {display:none;}
-}
-/*body {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -user-select: none;
-}*/
-</style>
-<div style="background:#ebf0f0" class=" mob-view">
-<div class="container">
-<div class="col-sm-6">
-<ul class="list-unstyled list-inline  lay-1 pull-left">
-<li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.facebook.com/pages/Mohan-Foundation/239983060819" title=""><i style="color:#22235B;" class="fa fa-facebook"></i></a></li>
-<li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://twitter.com/mohanfoundation" title=""><i style="color:#22235B;" class="fa fa-twitter"></i></a></li>
-<li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.youtube.com/subscription_center?add_user=mohanfoundation" title=""><i style="color:#22235B;" class="fa fa-youtube"></i></a></li>
-<li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.instagram.com/mohanfound/" title=""><i style="color:#22235B;" class="fa fa-instagram"></i></a></li>
-<li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.linkedin.com/company/mohan-foundation/" title=""><i style="color:#22235B;" class="fa fa-linkedin"></i></a></li>
-<li>
-<a style="color:#22235B; font-size:14px;" target="_blank" href="https://www.globalgiving.org/projects/training-to-augment-organ-donation-in-india">Global Giving US Nationals</a>
-</li>
-<li>
-<div class="">
-<span class="dropdown link-box1"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#22235B; padding-left: 10px; font-size:14px;">Explore <b class="caret"></b></a>
-<ul style="margin-top:0px;height:auto;" class="dropdown-menu" role="menu">
-<li><a href="https://www.mohanfoundation.org/newsletters/itns/index.asp">Indian Transplant Newsletter</a></li>
-<li><a href="https://www.mohanfoundation.org/qa.asp">FAQ's</a></li>
-
-<li><a href="https://www.mohanfoundation.org/request-for-using-mohan-foundation-material.asp">Request To Use MF Content</a></li>
-<li><a href="https://www.mohanfoundation.org/benefits.asp">Membership Benefits</a></li>
-<li><a href="https://www.mohanfoundation.org/feedback.asp">Feedback</a></li>
-<li><a href="https://www.mohanfoundation.org/enquiry.asp">Enquiry</a></li>
-<li><a href="https://www.mohanfoundation.org/sitemap.asp">Sitemap</a></li>
-</ul>
-</span>
-</div>
-</li>
-</ul>
-</div>
-<div class="col-sm-6">
-<ul class="list-unstyled list-inline flt-rht lay-1 pull-right">
-<li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/contact.asp">Contact Us</a></li>
-<li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/RegisterStep1.asp?Sendto=">Registration</a></li>
-<li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/login.asp">Login</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div style="background-color:#FFFFFF;" class="container mob-view">
-<div class="lay-2 pad-bot">
-<div class="ver-link">
-<ul class="list-unstyled">
-<li data-toggle="tooltip" data-placement="left" title="" data-original-title="Login"><a href="https://www.mohanfoundation.org/regis/login.asp"><center><span style="padding:5px 0px;" class="glyphicon glyphicon-user"></span></center></a>
-</li><li data-toggle="tooltip" data-placement="left" title="" data-original-title="Twitter">
-<a href="https://twitter.com/mohanfoundation" target="_blank"><center><img src="https://www.mohanfoundation.org/includes-rwd/images/twitter1.png"></center></a>
-</li>
-<li data-toggle="tooltip" data-placement="left" title="" data-original-title="Facebook">
-<a href="https://www.facebook.com/pages/Mohan-Foundation/239983060819" target="_blank"><center><img src="https://www.mohanfoundation.org/includes-rwd/images/facebook.png"></center></a>
-</li>
-<li data-toggle="tooltip" data-placement="left" title="" data-original-title="Youtube">
-<a href="https://www.youtube.com/subscription_center?add_user=mohanfoundation" target="_blank"><center><img src="https://www.mohanfoundation.org/includes-rwd/images/youtube-1.png"></center></a>
-</li>
-<li data-toggle="tooltip" data-placement="left" title="" data-original-title="Home">
-<a href="https://www.mohanfoundation.org/index.asp"><center><span style="padding:5px 0px;" class="glyphicon glyphicon-home"></span></center></a>
-</li>
-<li data-toggle="tooltip" data-placement="left" title="" data-original-title="Up">
-<a href="#"><center><span style="padding:5px 0px;" class="glyphicon glyphicon-arrow-up"></span></center></a>
-</li>
-</ul>
-</div>
-<div class="container mohanIconWrapper">
-<div class="pull-left"><a href="https://www.mohanfoundation.org"><img src="https://www.mohanfoundation.org/images/mohan-foundation-icon-ver2.png" title="MOHAN Foundation" alt="MOHAN Foundation"></a>
-</div>
-<div class="pull-right">
-<a href="https://www.mohanfoundation.org/helpline.asp"><div class="organ_helpline fleft">Organ Donation Helpline (Toll Free)<br><img src="https://www.mohanfoundation.org/images/phone_icon.png"><span class="phone_no">1800 103 7100</span></div></a>
-<a href="https://hi.mohanfoundation.org" target="_blank" class="btn1 btn-info">HINDI SITE</a>
-
-<a href="https://www.mohanfoundation.org/donorcard.asp" class="btn1 " style="background-color: green; color:#fff">PLEDGE ORGANS</a>
-
-<a href="https://www.mohanfoundation.org/help.asp" class="btn1 btn-danger">DONATE FUNDS</a>
-</div>
-</div>
-</div>
-</div> 
-<div style="background-color:#fff;" class="container mob-view-header">
-<div class="row">
-<div class="col-sm-3">
-<div style="float:left;">
-<a href="https://www.mohanfoundation.org/index.asp"><img class="img-responsive" src="https://www.mohanfoundation.org/includes-rwd/images/logo-mobile-ver2.png"></a>
-</div>
-</div>
-<div class="col-sm-9">
-<ul class="list-unstyled list-inline flt-rht lay-1">
-<li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/contact.asp">Contact Us</a></li>
-<li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/RegisterStep1.asp?Sendto="><img style="border:1px solid #00CC00;background:#00CC00;border-radius:3px;" src="https://www.mohanfoundation.org/includes-rwd/images/registration.png" title="Register"></a></li>
-<li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/login.asp"><img style="border:1px solid #0E3077;background:#0E3077;border-radius:3px;" src="https://www.mohanfoundation.org/includes-rwd/images/login.png" title="Login"></a></li>
-
-</ul>
-</div>
-</div>
-<div class="lay-2 pad-bot">
-<div class="col-md-12" style="text-align: center;  padding: 10px;">
-<a href="https://www.mohanfoundation.org/helpline.asp"><div class="">Organ Donation Helpline<br><img src="https://www.mohanfoundation.org/images/phone_icon.png"><span class="phone_no">1800 103 7100</span></div></a>
-</div>
-<div class="col-md-12" style="text-align: center;  padding: 10px;">
-
-<a href="https://www.mohanfoundation.org/donorcard.asp" class="btn1 " style="background-color: green; color:#fff">PLEDGE ORGANS</a>
-<a href="https://www.mohanfoundation.org/help.asp" class="btn1 btn-danger">DONATE FUNDS</a>
-</div>
-<div class="col-md-12" style="text-align: center;  padding: 10px;">
-<span class="dropdown link-box1"><a class="dropdown-toggle btn1 btn-warning" style="background-color: #ff6600;" data-toggle="dropdown">EXPLORE <b class="caret"></b></a>
-<ul style="margin-top:0px;height:auto;" class="dropdown-menu" role="menu">
-<li><a href="https://www.mohanfoundation.org/newsletters/itns/index.asp">Indian Transplant Newsletter</a></li>
-<li><a href="https://www.mohanfoundation.org/qa.asp">FAQ's</a></li>
-
-<li><a href="https://www.mohanfoundation.org/request-for-using-mohan-foundation-material.asp">Request To Use MF Content</a></li>
-<li><a href="https://www.mohanfoundation.org/benefits.asp">Membership Benefits</a></li>
-<li><a href="https://www.mohanfoundation.org/feedback.asp">Feedback</a></li>
-<li><a href="https://www.mohanfoundation.org/enquiry.asp">Enquiry</a></li>
-<li><a href="https://www.mohanfoundation.org/sitemap.asp">Sitemap</a></li>
-</ul>
-</span>
-
-<a href="https://hi.mohanfoundation.org" target="_blank" class="btn btn-info btn-sm">HINDI SITE</a>
-</div>
-</div>
-
-</div>
-
-<div id="noty-holder"></div>
-
-<script>
-	$(function(){
-	if($(window).width() > 960){
-		//$('.dropdown').hover(function() {
-//			 $(this).toggleClass('open');
-//		});	
-$('.dropdown').mouseenter(function() { 
-$(this).addClass('open');
- }); 
-$('.dropdown').mouseleave(function() {
-$(this).removeClass('open');
- });
-	} else {
-		
-	}
-	  $('[data-toggle="tooltip"]').tooltip();
-	  $("[data-placement=left]").hover(function(){
-	$('.tooltip').css('margin-right',parseInt($('.tooltip').css('right')) + 250 + 'px')
-});
-});
-	</script>
-
-
-<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
-<script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&amp;version=v11.0" nonce="AZWtLlzj"></script>
-
-<div class="nav-bg">
-<div class="container top-menu-container">
-<nav class="navbar navbar-inverse navbar-static-top marginBottom-0 affix-top" role="navigation" data-spy="affix" data-offset-top="197">
-<div class="navbar-header">
-<div class="mob-view-header">
-<a class="col-md-6 navbar-brand" href="https://www.mohanfoundation.org"><img src="https://www.mohanfoundation.org/includes-rwd/images/home.png"></a>
-</div>
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-</div>
-<div class="collapse navbar-collapse container top-menu-container" id="navbar-collapse-1" style="max-height: 450px; overflow-y: scroll;">
-<ul class="nav navbar-nav">
-<li class="dropdown"><a href="https://www.mohanfoundation.org"> <img class="menu-icon" src="https://www.mohanfoundation.org/images/Home.png" data-pin-nopin="true">HOME</a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img class="menu-icon" src="https://www.mohanfoundation.org/images/AboutUs.png" data-pin-nopin="true"> ABOUT US<b class="caret"></b></a>
-<ul class="dropdown-menu meg-nav-divider1">
-<div class="row">
-<div class="col-sm-4 meg-nav-divider-col">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785;"><strong>Who We are</strong></p>
-<li><a href="https://www.mohanfoundation.org/who.asp">Our History</a></li>
-<li><a href="https://www.mohanfoundation.org/who.asp#ch">Vision &amp; Mission</a></li>
-<li><a href="https://www.mohanfoundation.org/trustees.asp">Trustees &amp; Members </a></li>
-<li><a href="https://www.mohanfoundation.org/advisory-members.asp">Advisory Members </a></li>
-
-<li><a href="https://www.mohanfoundation.org/supporting-organisations.asp">Our Partners</a></li>
-<li><a href="https://www.mohanfoundation.org/tax-benefits.asp">Our Tax Status</a></li>
-<li><a href="https://www.mohanfoundation.org/annual-reports.asp">Annual Reports</a></li>
-
-<li><a href="https://www.mohanfoundation.org/awards.asp">Awards &amp; Accolades</a></li>
-</ul>
-</div>
-<div class="col-sm-4 meg-nav-divider-col">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785;"> <strong>What We do</strong></p>
-<li><a href="https://www.mohanfoundation.org/anudaan.asp">Anudaan – Making Transplants Affordable</a></li>
-<li><a href="https://www.mohanfoundation.org/research-and-publications.asp">Research &amp; Publications</a></li>
-<li><a href="https://www.mohanfoundation.org/survey.asp">Organ Donation Survey</a></li>
-
-<li><a href="https://www.mohanfoundation.org/donor-memorial/index.asp">Donor Memorial</a></li>
-<li><a href="https://www.mohanfoundation.org/patient.asp">Patient Support Group</a></li>
-
-<li><a href="https://www.mohanfoundation.org/training-programme/transplant-coordinators-training-programme.asp">Transplant Coordinators’ Training Programme</a></li>
-<li><a href="https://www.mohanfoundation.org/profile/changemakers.asp">Changemakers</a></li>
-</ul>
-</div>
-<div class="col-sm-4 meg-nav-divider-col">
-<p style="border-bottom: 2px solid #133785;  "><strong>Transplant Registries</strong></p>
-<ul class="list-unstyled">
-<li><a href="http://www.knos.org.in/" target="_blank">Kerala</a></li>
-<li><a href="http://www.rnos.org/" target="_blank">Rajasthan</a></li>
-<li><a href="http://www.tnos.org/" target="_blank">Tamil Nadu</a></li>
-</ul>
-</div>
-</div>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img class="menu-icon" src="https://www.mohanfoundation.org/images/News&amp;events.png" data-pin-nopin="true"> NEWS &amp; EVENTS<b class="caret"></b></a>
-<ul class="dropdown-menu meg-nav-divider2">
-<div class="row">
-<div class="col-sm-5 meg-nav-divider-col ">
-<p style="border-bottom: 2px solid #133785;  "><strong>News &amp; Events</strong></p>
-<ul class="list-unstyled">
-<li><a href="https://www.mohanfoundation.org/transplant_organ_donation_news.asp">Latest News</a></li>
-<li><a href="https://blog.mohanfoundation.org/" target="_blank">MOHAN Foundation Blog</a></li>
-<li><a href="https://txnews.mohanfoundation.org/" target="_blank">Transplant News Blog</a></li>
-<li><a href="https://www.mohanfoundation.org/mohan-press-release/index.asp">MOHAN Foundation Press Release</a></li>
-<li><a href="https://www.mohanfoundation.org/press_release/press_release_new.asp">Press &amp; Media</a></li>
-<li><a href="https://www.mohanfoundation.org/upcoming-programmes.asp">Events Calendar</a></li>
-<li><a href="https://www.mohanfoundation.org/commonwealth-tribute-to-life.asp">Commonwealth Event</a></li>
-</ul>
-</div>
-<div class="col-sm-4 meg-nav-divider-col">
-<p style="border-bottom: 2px solid #133785;  "><strong>Activities</strong></p>
-<ul class="list-unstyled">
-<li><a href="https://www.mohanfoundation.org/activities/activity-index.asp">Latest Activities</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/TRIOMPH-patient-support-group-activities.asp">TRIOMPH - Patient Support Group</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/synchrony-dialogues.asp">Synchrony Dialogues</a></li>
-
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Bangalore">Bangalore</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Belagavi">Belagavi</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chennai">Chennai</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chandigarh">Chandigarh</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Delhi">Delhi-NCR</a></li>
-
-
-</ul>
-</div>
-<div class="col-sm-3 meg-nav-divider-col " style="padding-top:30px;">
-<ul class="list-unstyled">
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Hyderabad">Hyderabad</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Jaipur">Jaipur</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Trivandrum">Kerala</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Manipur">Manipur</a></li>
-
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Mumbai">Mumbai</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Nagpur">Nagpur</a></li>
-
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Goa">Goa</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Pune">Pune</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=USA">USA</a></li>
-</ul>
-</div>
-</div>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/Law.png" data-pin-nopin="true">LAW<b class="caret"></b></a>
-<ul class="dropdown-menu meg-nav-divider3">
-<div class="row">
-<div class="col-sm-6 meg-nav-divider-col">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785; "><strong>Acts, Rules, Bills &amp; GOs</strong></p>
-<li><a href="https://www.mohanfoundation.org/tho/thobill1.asp">Transplantation of Human Organs Act 1994</a></li>
-<li><a href="https://www.mohanfoundation.org/tho/tho_rules1.asp">Transplantation of Human Organs Rule 2008</a></li>
-
-<li><a href="https://www.mohanfoundation.org/THO-amendment-bill-2011.pdf">THO Amendment Bill 2011</a></li>
-<li><a href="https://www.mohanfoundation.org/THO-amendment-act-2011.pdf">THO Amendment Act 2011</a></li>
-<li><a href="https://www.mohanfoundation.org/THO-Rules-2014.pdf">THO Rules 2014</a></li>
-<li><a href="https://www.mohanfoundation.org/tho-forms.asp">THO FORMS</a></li>
-<li><a href="https://www.mohanfoundation.org/government-orders/tamil-nadu-gos.asp">Tamil Nadu GO’s</a></li>
-<li><a href="https://www.mohanfoundation.org/government-orders/kerala-gos.asp">Kerala GO's</a></li>
-
-<li><a href="https://www.mohanfoundation.org/government-orders/maharashtra-government-resolutions.asp">Maharashtra Government Resolutions</a></li>
-</ul>
-</div>
-<div class="col-sm-6 meg-nav-divider-col">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785; "><strong>Orders, Judgements &amp; Forms</strong></p>
-<li><a href="https://www.mohanfoundation.org/Path-Breaking-Order-for-Inquest.asp">Inquest Order </a></li>
-<li><a href="https://www.mohanfoundation.org/images/BRAIN-STEM-DEATH-CERTIFICATION-GUIDELINES-KERALA.pdf">Brain Stem Death Certification Guidelines - Kerala</a></li>
-<li><a href="https://www.mohanfoundation.org/DelhiHighcourt-judgement-OrganTransplant-NOCStateGovt.pdf">Delhi High Court Judgement on Organ Transplant NOC State Government</a></li>
-<li><a href="https://www.mohanfoundation.org/Summary-Of-The-Delhi-High-Court-Judgement.pdf">Summary of Delhi High Court Judgement</a></li>
-<li><a href="https://www.mohanfoundation.org/wr1152009.pdf">Supreme Court Judgement on Euthanasia</a></li>
-<li><a href="https://www.mohanfoundation.org/loksabha/loksabhaQA.asp">Lok Sabha Discussion on Organ Donation</a></li>
-<li><a href="https://www.mohanfoundation.org/approval-for-renal-transplantation.asp">Requirements for Approval For Renal Transplantation</a></li>
-</ul>
-</div>
-</div>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/OpenResource.png" data-pin-nopin="true">OPEN RESOURCES<b class="caret"></b></a>
-<ul class="dropdown-menu meg-nav-divider6">
-<div class="row">
-<div class="col-sm-6 meg-nav-divider-col ">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785; "><strong>Promotion Material</strong></p>
-<li><a href="https://www.mohanfoundation.org/organ-donation-transplant-resources/index.asp">Articles</a></li>
-<li><a href="https://www.mohanfoundation.org/videos/index.asp">Videos</a></li>
-<li><a href="https://www.mohanfoundation.org/videos/celebrity-endorsements.asp">Celebrity Endorsements Videos</a></li>
-<li><a href="https://www.mohanfoundation.org/slides/index.asp">Powerpoint Presentations</a></li>
-<li><a href="https://www.mohanfoundation.org/transplant-centres/index.asp">Transplant Centres in India</a></li>
-<li><a href="https://www.mohanfoundation.org/newsletters/lifepassiton-archives.asp">Life... Pass It On</a></li>
-<li><a href="https://www.mohanfoundation.org/transplant-news-letter.asp">Indian Transplant Newsletter</a></li>
-<li><a href="https://www.mohanfoundation.org/newsletters/brochures.asp">Brochures</a></li>
-<li><a href="https://www.mohanfoundation.org/proceedings/index.asp">Meeting/Conference Proceedings</a></li>
-</ul>
-</div>
-<div class="col-sm-6 meg-nav-divider-col">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785; "><strong>Galleries</strong></p>
-
-
-<li><a href="https://www.mohanfoundation.org/PhotoGallery/index.html">MOHAN Foundation Gallery</a></li>
-
-<p style="border-bottom: 2px solid #133785; padding-top:3px;"><strong>Others</strong></p>
-
-<li><a href="https://www.mohanfoundation.org/brain-death.asp">Brain Death</a></li>
-
-
-
-<li><a href="https://www.mohanfoundation.org/body-donation.asp">Body Donation</a></li>
-<li><a href="https://www.mohanfoundation.org/eye-banks.asp">Eye Banks</a></li>
-<li><a href="https://www.mohanfoundation.org/skin-banks.asp">Skin Banks</a></li>
-<li><a href="https://www.mohanfoundation.org/mobile-apps/index.asp">Mobile Apps</a></li>
-
-<li><a href="https://www.mohanfoundation.org/ISOT-frames-transplant-guidelines-during-COVID-19-outbreak.asp">ISOT Tx guidelines during COVID-19</a></li>
-
-</ul>
-</div>
-</div>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/GetInvolved.png" data-pin-nopin="true">GET INVOLVED<b class="caret"></b></a>
-<ul class="dropdown-menu meg-nav-divider4">
-<div class="row">
-<div class="col-sm-6 meg-nav-divider-col">
-<a href="https://www.mohanfoundation.org/get-involved.asp"> <p style="border-bottom: 2px solid #133785; "><strong>Support Organ Donation</strong></p></a>
-<ul class="list-unstyled">
-
-<li><a href="https://www.mohanfoundation.org/organ-donation-ambassador.asp">Organ Donation Ambassador</a></li>
-<li><a href="https://www.mohanfoundation.org/life-membership.asp">Life Membership &amp; Advocacy </a></li>
-<li><a href="https://www.mohanfoundation.org/giftshop/index.asp">Gift Shop</a></li>
-<li><a href="https://www.mohanfoundation.org/public-advocacy.asp">Public Advocacy for Organ Donation</a></li>
-<li><a href="https://www.mohanfoundation.org/corporate-advocacy.asp">Corporate Advocacy</a></li>
-<li><a href="https://www.mohanfoundation.org/support-social-media.asp">Support Us on Social Media</a></li>
-<a href="https://www.globalgiving.org/projects/training-to-augment-organ-donation-in-india" target="_blank"><img class="img-responsive" src="https://www.mohanfoundation.org/includes-rwd/images/global-giving.jpg"></a>
-</ul>
-</div>
-<div class="col-sm-6 meg-nav-divider-col">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785;  "><strong>Help Us Save Lives</strong></p>
-<li><a href="https://www.mohanfoundation.org/anudaan.asp">Anudaan – Making Transplants Affordable</a></li>
-<li><a href="https://www.mohanfoundation.org/internships.asp">Internship</a></li>
-<li><a href="https://www.mohanfoundation.org/volunteer.asp">Volunteering</a></li>
-
-
-<li><a href="https://www.mohanfoundation.org/help-us-Conduct-an-awareness-program.asp">Help Us Conduct an Awareness Program</a></li>
-
-<a href="https://www.mohanfoundation.org/help.asp"><img class="img-responsive" src="https://www.mohanfoundation.org/includes-rwd/images/tax-benefits.jpg"></a>
-</ul>
-</div>
-</div>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/knowledgeCentre.png" data-pin-nopin="true">COURSES<b class="caret"></b></a>
-<ul class="dropdown-menu meg-nav-divider5">
-<div class="row">
-<div class="col-sm-6 meg-nav-divider-col ">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785;  "><strong>Transplant Coordinators' Training Programme</strong></p>
-<li><a href="https://courses.mohanfoundation.org/index.asp">Course Details</a></li>
-<li><a href="https://courses.mohanfoundation.org/one-week-transplant-coordinators-training-programme.asp">One Week Course</a></li>
-<li><a href="https://courses.mohanfoundation.org/one-month-transplant-coordinators-training-programme.asp">One Month Course</a></li>
-<li><a href="https://courses.mohanfoundation.org/course-structure.asp">Course Structure &amp; Eligibility</a></li>
-
-<li><a href="https://courses.mohanfoundation.org/course-news.asp">Training Programme Reports</a></li>
-
-
-
-<li><a href="https://mohanfoundation.org/feedback/training-programme-feedback.asp">Testimonials</a></li>
-</ul>
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785; "><strong>Others
-</strong></p>
-
-<li><a href="https://www.mohanfoundation.org/masterclasses.asp">Masterclasses </a></li>
-
- 
-</ul>
-</div>
-<div class="col-sm-6 meg-nav-divider-col">
-<p></p>
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785; "><strong>E-Learning Courses
-</strong></p>
-
-<li><a href="https://www.mohanfoundation.org/training-programme/elearning-programme.asp">Post Graduate Diploma in Transplant Coordination and Grief Counselling</a></li>
-<li><a href="https://www.mohanfoundation.org/training-programme/transplant-coordination-elearning-programme.asp">Transplant Coordination Professional Certificate</a></li>
-<li><a href="https://www.mohanfoundation.org/training-programme/oneday-elearning-programme.asp">Gift of Life : One-day certificate course</a></li>
-<li><a href="https://www.mohanfoundation.org/training-programme/taking-care-of-your-kidneys-online-course.asp">Taking Care of Your Kidneys</a></li>
-<li><a href="https://www.mohanfoundation.org/training-programme/family-counselling-online-course.asp">Family Counselling &amp; Conversations</a></li>
-<li><a href="https://www.mohanfoundation.org/training-programme/legal-aspects-online-course.asp">Legal Aspects of Organ Donation</a></li>
-<li><a href="https://www.mohanfoundation.org/training-programme/surgical-elearning-register.asp">Multi-Organ Retrieval Course</a></li>
-
-
-</ul>
-<ul class="list-unstyled">
-
-
-
-
-
-</ul>
-</div>
-</div>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/Impact.png" data-pin-nopin="true">IMPACT<b class="caret"></b></a>
-<ul class="dropdown-menu meg-nav-divider7">
-<div class="row">
-<div class="col-sm-12 meg-nav-divider-col">
-<ul class="list-unstyled">
-<p style="border-bottom: 2px solid #133785; "><strong>Impact of Our Work</strong></p>
-<li><a href="https://www.mohanfoundation.org/MOHAN-Impact-India.asp">MOHAN Impact - India</a></li>
-<li><a href="https://www.mohanfoundation.org/national-deceased-donor-transplantation.asp">Deceased Organ Donation in India</a></li>
-<li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Tamil%20Nadu">Tamil Nadu</a></li>
-<li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Telangana">Telangana</a></li>
-<li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Kerala">Kerala</a></li>
-<li><a href="#">Maharashtra</a></li>
-<li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Rajasthan">Rajasthan</a></li>
-<li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Delhi-NCR">Delhi/NCR</a></li>
-
-<li><a href="https://www.mohanfoundation.org/inos-figures.asp">INOS</a></li>
-</ul>
-</div>
-</div>
-</ul>
-</li>
-</ul>
-</div>
-</nav>
-</div>
-</div>
-<div class="container container-bg">
-<div class="row">
-<div class="col-sm-12">
-<ol class="breadcrumb">
-<li><a href="https://www.mohanfoundation.org/index.asp">Home</a></li>
-<li class="active">Contact Us</li>
-</ol>
-</div>
-<div class="col-lg-12" id="mymain" onload="mydefaultsize()">
-<h2>Contact Us</h2>
-<div class="brd-btm-solid"></div><span class="heart-img"><img src="https://www.mohanfoundation.org/includes-rwd/images/home_002_04.jpg"></span>
-<div class="lay-1">
-<center>
-<h4><strong style="color:#333333;text-decoration:underline;">Toll Free Organ Donation Helpline - 1800 1037100</strong></h4>
-</center>
-<div class="col-sm-4">
-
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Chennai (Headquarters)</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-3rd Floor, Toshniwal Building,<br>
-267, Kilpauk Garden Road<br>
-Chennai-600 010. India. <br>
-<abbr title="Phone">P:</abbr> 044-26447000<br>
-<abbr title="Mobile">M:</abbr> 94446 07000<br>
-
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">info@mohanfoundation.org</a></li>
-<li><a style="color:#000000;" href="mailto:#">mohanfound@gmail.com</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Hyderabad</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-Ms. Lalitha Raghuram, <span class="red">Country Director,</span><br>
-
-#6-3-634, Flat B-1/A, Second Floor,<br>
-Green Channel, Khairatabad,<br>
-Hyderabad 500 004.<br>
-
-Mr. Bhanuchandra +91-93924 56355<br>
-Mr. Bhanu Prakash +91-92900 94245<br>
-
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">lalitha@mohanfoundation.org</a></li>
-
-<li><a style="color:#000000;" href="mailto:#">hyd.mohanfoundation@yahoo.co.in</a></li>
-<li><a style="color:#000000;" href="mailto:#">hyd@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Delhi - NCR</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-Ms. Pallavi Kumar, <span class="red">Executive Director,</span><br>
-284 F, B-Block,<br>
-SushantLok Phase-I,<br>
-Landmark : Behind Vipul Square/Convergys Building<br>
-Gurgaon - 122002 <br>
-<abbr title="Phone">P:</abbr> 0124 – 4115211 (9.00 AM to 5.00 PM)<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">pallavi@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="clear-both"></div>
-<div class="clear-both"></div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Chandigarh</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-Mr. Sudhir Dewan, <span class="red">Director,</span><br>
-109, Sector-8A,<br>
-Chandigarh - 160009.<br>
-<abbr title="Mobile">M:</abbr> +91 95015 34590, +91 97791 35408<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">chandigarh@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Nagpur</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-Dr. Ravi Wankhede, <span class="red"></span><br>
-J-12, Laxmi Nagar,<br>
-West High Court Road,<br>
-Nagpur - 440022. Maharashtra.<br>
-<abbr title="Phone">P:</abbr> 0712 - 3275970<br>
-<abbr title="Mobile">M:</abbr> +91 9423683350/9372760691/8895730512<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">raviwankhede@mohanfoundation.org</a></li>
-<li><a style="color:#000000;" href="mailto:#">nagpur@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Jaipur</strong></h4>
-<strong tyle="color:#2CA0CA;">MFJCF</strong><br>
-Ms. Bhavna Jagwani, <span class="red">Convenor.</span><br>
-C-103, Lal Kothi Scheme,<br> Jaipur - 302015<br>
-<abbr title="Mobile">M:</abbr> +91 9799003860<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">office@mfjcfnavjeevan.org</a></li>
-</ul>
-
-
-</address>
-</div>
-</div>
-<div class="clear-both"></div>
-<div class="clear-both"></div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Mumbai</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-7th Floor, Trust House,<br>
-35, Hospital Avenue,<br>
-Dr.E.Borges Road, <br>
-Parel, <br>Mumbai-400012. <br>
-<abbr title="Mobile">P:</abbr> 022 - 61331058, 61331062<br>
-
-<abbr title="Mobile">M:</abbr> +91 8291711936<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">mumbai@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Bengaluru</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-Mr. Shridhar Hanchinal<br>
-#102, 1st Floor, Money Terrace, <br>
-No. 100, KH Road, Above Bharat Bank,<br>
-Bengaluru - 560027, Karnataka.
-<br>
-<abbr title="Mobile">M:</abbr> +91 9886783008<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">shridhar@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Imphal</strong></h4>
-<strong tyle="color:#2CA0CA;">Ms.. Roma Devi</strong><br>
-<abbr title="Mobile">M:</abbr> +91 8119085083<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">roma@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="clear-both"></div>
-<div class="clear-both"></div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Kerala</strong></h4>
-<strong tyle="color:#2CA0CA;">Mrs. Kavitha Aneesh</strong><br>
-<abbr title="Mobile">M:</abbr> +91 9447691127<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">kavitha@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">Goa</strong></h4>
-<strong tyle="color:#2CA0CA;">Mr. Gabriel John Pereira</strong><br>
-<abbr title="Mobile">M:</abbr> +91 9823993800<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">gabriel@mohanfoundation.org</a></li>
-</ul>
-</address>
-</div>
-</div>
-
-<div class="col-sm-4">
-<div class="lay-1 donor-menories-bgnew">
-<address style="font-size:15px;">
-<h4><strong style="color:#2CA0CA;text-decoration:underline;">United States</strong></h4>
-<strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
-Dr. Anirban Bose<br>
-28 Church Street<br>
-Pittsford,<br>
-NY 14534<br>
-<abbr title="Mobile">M:</abbr> 585 719 6112<br>
-<ul class="list-inline list-unstyled">
-<li><strong>Email:</strong></li>
-<li><a style="color:#000000;" href="mailto:#">dr.anirbanbose@gmail.com</a></li>
-</ul>
-</address>
-</div>
-</div>
-
-
-
-
-</div>
-<div class="clear-both"></div>
-<center>
-<h4><strong style="color:#333333;text-decoration:underline;">Toll Free Organ Donation Helpline - 1800 1037100</strong></h4>
-</center>
-</div>
-
-</div>
-</div>
-<div class="clear-both"></div>
-<div class="footer">
-
-<style>
-.item-text {
-  position: relative;
-  overflow: hidden;
-  
-  text-align:center;
-}.item-text1 {
-  position: relative;
-  text-align:center;
-}
-.thumbnail{padding: 0; margin-bottom: 0;}
-#noty-holder {
- position: fixed;
-  bottom: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  z-index:10000;
-    width: 100%;
-    float: left;
-   text-align: center;
-  background-color: #0779BF;
-
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0779BF), to(#0779BF));
-
-   /* Safari 5.1, Chrome 10+  */
-  background: -webkit-linear-gradient(top, #0779BF, #0779BF);
-
-  /* Firefox 3.6+  */
-  background: -moz-linear-gradient(top, #0779BF, #0779BF);
-
-   /* IE 10  */
-  background: -ms-linear-gradient(top, #0779BF, #0779BF);
-
-  /* Opera 11.10+  */
-  background: -o-linear-gradient(top, #0779BF, #0779BF);
-}
-#noty-holder .alert {
-    margin-bottom: 0;
-    color: #FFF;
-    font-size: 14px;
-}
-
-#noty-holder .alert a {
-    color: #FFF;
-    border-bottom: 2px solid #FFF;
-}
-
-#noty-holder .alert a:hover {
-    text-decoration: none;
-}
-
-#noty-holder .alert .close-ii{
-    cursor: pointer;
-    border-bottom: 2px solid #FFF;
-}
-#noty-holder .ctas{
-	text-align:center;
-	 
-}
-#noty-holder .cta__close{
-	display: none;
-}
-
-@media (min-width: 1024px){
-	#noty-holder .ctas{
-		margin-top: 3px;
-		margin-right: 50px;
-		float:right;
-	}
-	#noty-holder .cta__close{
-		display: inline-block;
-	}
-	#noty-holder .close{
-		display: none;
-	}
-}
-
-#noty-holder .cookie__cta{
-	background: #fff;
-	color: #000!important;
-	font-size: 12px;
-	line-height: 20px;
-	text-decoration: none;
-	padding: 0 8px;
-    border-radius: 6px;
-    border: 1px solid #dcdcdc;
-}
-.cookie__cta + .cookie__cta{
-	margin-left: 10px;
-}
-.close{
-    opacity: 1;
-}
-
-.close span{
-    color: #FFF;
-    border: 1px solid #fff;
-    width: 20px;
-    height: 20px;
-	display: inline-block;
-    line-height: 15px;
-    text-align: center;
-    border-radius: 50%;
-    font-size: 18px;
-	padding-left:3px;
-    padding-right:3px;
-}
-.ctas a, .ctas span{
-	display: inline-block;
-}
-
-</style>
-<script language="javascript">
-function validatenew()
-{
- 
-if ((document.formnew.subsemail.value) == "")
-	{
-		alert("Please Enter your Email ID")
-		document.formnew.subsemail.focus()
-		return false;
-	}
-else if ((document.formnew.subsemail.value.indexOf("@")<=0) || (document.formnew.subsemail.value.indexOf(".")<=0)  || ((document.formnew.subsemail.value.indexOf(".")-(document.formnew.subsemail.value.indexOf("@")))<=1)||( ( (document.formnew.subsemail.value.length)-(document.formnew.subsemail.value.lastIndexOf(".")))<=2))
-	{
-		alert("Please enter your Correct EMail ID");
-		document.formnew.subsemail.select()
-		return false;
-	}
-	 
- 
-	return true;
-}
-	</script>
-
-<footer style="background-image: url(&quot;https://www.mohanfoundation.org/images/footer-img.jpg&quot;);">
-<div class="parallax "></div>
-
-<div class="block ">
-<div class="container">
-<div class="footer-widgets">
-<div class="row">
-<div class="table-responsive">
-<table class="table table-bordered">
-<thead>
-<tr class="warning"><td colspan="2" align="justify"><strong>Charity Status: MOHAN Foundation is a registered non-profit charitable trust and the Registration No. 285 of 98 dated 4th August 1997. All contributions are exempt under section 80-G of the Income Tax Act 1961.</strong></td> </tr>
-</thead>
-</table>
-</div>
-
-<div class="col-md-3 column">
-<div class="widget">
-<div class="contact-widget">
-<a href="https://www.mohanfoundation.org/helpline.asp"> <h5>Organ Donation Helpline <br><span>1800 103 7100 <small style="color:#fff;"> (Toll Free)</small></span></h5> </a>
-<div class="widget-title">
-<h4>Head Office</h4>
-</div>
-<ul>
-<li><i class="fa fa-map-marker"></i>3rd Floor, Toshniwal Building, <br> &nbsp; &nbsp; &nbsp; 267 Kilpauk Garden Road,Chennai-600 010.</li>
-<li><i class="fa fa-phone"></i>+91 44 26447000</li>
-<li><i class="fa fa-envelope"></i>info@mohanfoundation.org</li>
-</ul>
-</div>
-
-<div class="widget">
-<div class="widget-title">
-<h4>Transplant Registries</h4>
-</div>
-<ul>
-<li><a href="http://www.tnos.org/" target="_blank">Tamil Nadu Network for Organ Sharing</a></li>
-<li><a href="http://www.knos.org.in/" target="_blank">Kerala Network for Organ Sharing</a></li>
-<li><a href="http://www.rnos.org/" target="_blank">Rajasthan Network for Organ Sharing</a></li>
-</ul>
-</div>
-<div class="">
-<center class="pad-bot"><a style="width:200px; margin: 3px;" class="btn btn-md btn-danger" href="https://www.mohanfoundation.org/help.asp">Donate Funds</a></center>
-<center class="pad-bot"><a style="width:200px; margin: 3px;" class="btn btn-md btn-primary" href="https://www.mohanfoundation.org/survey.asp">Take a Survey</a></center>
-<center class="pad-bot"><a style="width:200px; margin: 3px; background-color: green; color:#fff;" class="btn btn-md " href="https://www.mohanfoundation.org/donorcard.asp">Pledge Organs</a></center>
-</div>
-
-</div>
-</div>
-<div class="col-md-3 column">
-<div class="widget">
-<div class="widget-title">
-<h4><span>Home</span></h4>
-</div>
-<ul>
-<li><a href="https://www.mohanfoundation.org/who.asp">About Us</a></li>
-<li><a href="https://www.mohanfoundation.org/contact.asp">Contact Us</a></li>
-<li><a href="https://www.mohanfoundation.org/annual-reports.asp">Annual Reports</a></li>
-<li><a href="https://www.mohanfoundation.org/volunteer.asp">Volunteering</a></li>
-<li><a href="https://www.mohanfoundation.org/internships.asp">Internship</a></li>
-</ul>
-</div>
-<div class="widget">
-<div class="widget-title">
-<h4>Organ Donors</h4>
-</div>
-<ul>
-<li><a href="https://www.mohanfoundation.org/donor-memorial/index.asp">Donor Memorial</a></li>
-<li><a href="https://www.mohanfoundation.org/download-animation.asp?image=to_remember_me">Life Pass It On</a></li>
-<li><a href="https://www.mohanfoundation.org/donorcard.asp">Donor Cards</a></li>
-</ul>
-</div>
-
-<div class="widget">
-<div class="widget-title">
-<h4>Mobile Apps</h4>
- </div>
-<ul>
-<li><a href="https://www.mohanfoundation.org/mobile-apps/donor-optimisation.asp">Donor Optimisation Mobile App</a></li>
-<li><a href="https://www.mohanfoundation.org/mobile-apps/e-donor-card.asp">E-Donor Card App</a></li>
-<li><a href="https://www.mohanfoundation.org/mobile-apps/organ-donation-helpline-app.asp">Organ Donation App</a></li>
-<li><a href="https://www.mohanfoundation.org/mobile-apps/brain-death-certification-app.asp">Brain Death Certification App</a></li>
-</ul>
-</div>
-
-</div>
-<div class="col-md-3 column">
-<div class="widget">
-<div class="widget-title">
-<h4>Activities</h4>
-</div>
-<ul>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chennai">Chennai</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Hyderabad">Hyderabad</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Delhi">Delhi</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Nagpur">Nagpur</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chandigarh">Chandigarh</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Jaipur">Jaipur</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Bangalore">Bangalore</a></li>
-<li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Trivandrum">Kerala</a></li>
-</ul>
-</div>
-<div class="widget">
-<div class="widget-title">
-<h4>Public Education</h4>
-</div>
-<ul>
-<li><a href="https://www.mohanfoundation.org/transplant_organ_donation_news.asp">News</a></li>
-<li><a href="https://www.mohanfoundation.org/newsletters/brochures.asp">Brochures</a></li>
-<li><a href="https://www.mohanfoundation.org/survey.asp">Survey</a></li>
-<li><a href="https://www.mohanfoundation.org/download-animation.asp?image=brain_death">Brain Death Quotations</a></li>
-<li><a href="https://www.mohanfoundation.org/free-downloads.asp">Free Downloads</a></li>
-</ul>
-</div>
-
-</div>
-<div class="col-md-3 column">
-<div class="widget">
-<div class="widget-title">
-<h4>Physician Education</h4>
-</div>
-<ul>
-<li><a href="https://www.mohanfoundation.org/transplant_organ_donation_news.asp">News</a></li>
-<li><a href="https://www.mohanfoundation.org/transplant-news-letter.asp">Transplant Newsletter</a></li>
-<li><a href="https://www.mohanfoundation.org/SlidesSection.asp">Slides</a></li>
-<li><a href="https://www.mohanfoundation.org/publications.asp">Publication</a></li>
-<li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Andhra%20Pradesh">Stats- Organ Donation</a></li>
-<li><a href="https://www.mohanfoundation.org/government-orders/tamil-nadu-gos.asp">TN GO'S</a></li>
-<li><a href="https://www.mohanfoundation.org/government-orders/andhra-pradesh-gos.asp">Andhra Pradesh Order</a></li>
-</ul>
-</div>
-
-<div class="widget">
-<div class="widget-title">
-<h4>Transplant Coordinator Course</h4>
-</div>
-<ul>
-<li><a href="https://courses.mohanfoundation.org/index.asp">Course Details</a></li>
-
-
-<li><a href="https://courses.mohanfoundation.org/one-week-transplant-coordinators-training-programme.asp">One Week Course</a></li>
-<li><a href="https://courses.mohanfoundation.org/one-month-transplant-coordinators-training-programme.asp">One Month Course</a></li>
-<li><a href="https://www.mohanfoundation.org/training-programme/elearning-programme.asp">One Year E-Learning Course</a></li>
-
-<li><a href="https://www.mohanfoundation.org/feedback/training-programme-feedback.asp">Testimonials</a></li>
-</ul>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="footer-bar">
-<div class="container">
-<div class="row">
-<div class="col-md-6 column">
-<div class="newsletter-signup">
-<h4 class="footer-bar-title"><a name="subs"></a>Sign Up <span>Newsletter</span></h4>
-<form name="formnew" method="post" action="https://www.mohanfoundation.org/subscribe-success.asp" onsubmit="return validatenew();" class="form-horizontal">
-<input type="text" name="subsemail" placeholder="Enter Your Email">
-<button class="btn btn-md btn-danger">SUBSCRIBE</button>
-</form>
-</div>
-
-</div>
-<div class="col-md-6 column">
-<div class="footer-social-btns">
-<h4 class="footer-bar-title">Stay In <span>Touch</span></h4>
-<div class="social">
-<a itemprop="url" target="_blank" href="https://twitter.com/mohanfoundation" title=""><i class="fa fa-twitter"></i></a>
-<a itemprop="url" target="_blank" href="https://www.facebook.com/pages/Mohan-Foundation/239983060819" title=""><i class="fa fa-facebook"></i></a>
-<a itemprop="url" target="_blank" href="https://www.youtube.com/subscription_center?add_user=mohanfoundation" title=""><i class="fa fa-youtube"></i></a>
-<a itemprop="url" target="_blank" href="https://www.instagram.com/mohanfound/" title=""><i class="fa fa-instagram"></i></a>
-<a itemprop="url" target="_blank" href="https://www.linkedin.com/company/mohan-foundation/" title=""><i class="fa fa-linkedin"></i></a>
-
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="bottom-bar">
-<div class="container">
-<div class="row">
-<div class="col-md-12 column">
-<div class="bottom-links mob-center">
-<a href="https://www.mohanfoundation.org/unsubscribe.asp">Unsubscribe</a>
-<a href="https://www.mohanfoundation.org/privacy-policy.asp">Privacy Policy</a>
-<a href="https://www.mohanfoundation.org/terms-of-use.asp">Terms and conditions</a>
-<a href="https://www.mohanfoundation.org/images/MF-POSH-Policy-WRL.pdf">POSH Policy</a>
-<a href="https://www.mohanfoundation.org/registration-documents.asp">Organisation Registration Documents</a>
-</div>
-</div>
-<div class="col-md-12 column" style="padding-top:10px;">
-<p>© Copyright MOHAN Foundation 2021, All Rights Reserved. Hosting and Technology support for the past 20 years for <a href="https://www.mohanfoundation.org" style="color:#9db099;">www.mohanfoundation.org</a> website is being provided by <a href="https://www.medindia.net" style="color:#9db099;" target="_blank">www.medindia.net</a> - a large health website.</p>
-<p style="padding-top: 10px;"><strong>Disclaimer: </strong>The content of the site is for information purpose only. Always seek the advice of your physician or other qualified healthcare professional regarding any questions you may have about a medical condition. </p>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script src="https://ssl.google-analytics.com/ga.js" type="text/javascript"></script><script src="index_files/ga.js" type="text/javascript"></script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-5394455-1");
-pageTracker._trackPageview();
-</script>
-<script src="https://www.mohanfoundation.org/includes-rwd/js/bootstrap.min.js"></script>
-<script>
-	$('#myCarousel').carousel({
-		interval:   8000
-	});
-	$('#myCarouse2').carousel({
-		interval:   8000
-	});
-	$('#myCarouse3').carousel({
-		interval:   8000
-	});
-	  $(function () {
-    $('#myTab a:last').tab('show')
-  })
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "url": "https://www.mohanfoundation.org/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.mohanfoundation.org/search-result.asp?cx=partner-pub-4864473589052117:lvjl4u-nzwc&cof=FORID:10&ie=ISO-8859-1&sa=Search&q={search_term}",
-    "query-input": "required name=search_term"
-  }
-}
-</script>
-
-
-<style>
-.alertpop {display:none ; position: fixed;	top: 50%;left: 50%;	transform: translate(-50%, -50%);	
-width: 30%; z-index: 1000;  background-color: #fff;}
-
-
-#alertpop1 {
-  -webkit-box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
-  box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
-}
-
-@media screen and (max-width: 768px){
- .alertpop { width: 100%; }
-}
-
-.alertpop .panel-title{font-size:30px}
-/*.alertpop a,
-.alertpop a:visited {
-  text-decoration: none;
-  color: #FFF;
-  font-weight: bold;
-  display: block;
-  margin: 10px 0;
-}
-
-.alertpop a:hover,
-.alertpop a:active {
-  text-decoration: underline;
-}
-
-.alertpop a,
-.alertpop a:visited {
-  color: #1abc9c;
-}*/
-
-
-.alertpop p {
-	margin: 1em 0;
-	text-align:center;
-}
-
-.alertpop p+p+p {
-	font-size: 60%;
-}
-.btn-prem{background-color: #9a161a;  border-color: #911419; color:#fff; padding:5px;}
-.alertpop a:hover{color:#fff;}
-</style>
-
-<script>
-/*function hidepopup()
-{
-$('#alertpop1').hide();
-}
-$(document).ready(function(){           
-    setTimeout(function() {$('#alertpop1').show();}, 
-          1000);
-   }); */
-</script>
-
-
-<script>
-function createNoty(message, type) {
-    var html = '<div><div class="alert alert-' + type + ' alert-dismissable page-alert">';    
-    html += message;
-    html += '</div></div>';    
-    $(html).hide().appendTo('#noty-holder').slideDown();
-};
-
-$(function(){
-	var x = readCookie('cookie_policy'); 
-	if(x==null){
-     createNoty('<div>  This site uses cookies to deliver our services. By using our site, you acknowledge that you have read and understand our <a href="/privacy-policy.asp#Cookies" target="_blank">Cookie Policy</a>, <a href="/privacy-policy.asp" target="_blank">Privacy Policy</a>, and our <a href="/terms-of-use.asp" target="_blank">Terms of Use</a>. <p class="ctas"><span class="cookie__cta cta__agree close-ii" onClick="checkCookies();">OK, I agree</span><a href="/privacy-policy.asp" target="_blank" class="cookie__cta">No, give me more info</a></p></div>');
- 
-  
-    $('.page-alert .close').click(function(e) { 
-        e.preventDefault();
-        $(this).closest('.page-alert').slideUp();
-    });
-	
-	 $('.page-alert .close-ii').click(function(e) {
-        e.preventDefault();
-        $(this).closest('.page-alert').slideUp();
-    });
-	}
-});
-function closeCookies(){
-	createCookie('cookie_policy','NotAgree',''); 
-}
-function checkCookies(){	
-	 createCookie('cookie_policy','agree','30'); 
-}
-function createCookie(name,value,days) {
-    var expires = "";
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days*24*60*60*1000));
-        expires = "; expires=" + date.toUTCString();
-    }
-    document.cookie = name + "=" + value + expires + "; path=/";
-}
-function readCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1,c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-    }
-    return null;
-}
-
-function eraseCookie(name) {
-    createCookie(name,"",-1);
-}
-</script>
-
-<input type="hidden" name="track" value="test">
-</div>
-
-</df-messenger><div class="betternet-wrapper"></div><script src="https://www.gstatic.com/dialogflow-console/fast/messenger/messenger-internal.min.js?v=4"></script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+         </script>
+	      </div>
+      </div>
+      <meta name="description" content="MOHAN Foundation - Contact Us.">
+      <meta name="keywords" content="Contact Us, MOHAN Foundation Locations,  MOHAN Foundation">
+      <style type="text/css">
+         .donor-menories-bgnew{background:#f6f6f6;padding:15px;border:2px solid #f0f0f0;border-radius:3px;height:290px;}.donor-menories-bgnew>.media-left>a>img{border:5px solid #999594;border-radius:3px;padding:3px}.donor-menories-bgnew>.media-left>img{height:100px;width:125px}@media(max-width:360px){.donor-menories-bgnew{}}.marginBottom-0{margin-bottom:0}
+      </style>
+      <script src="https://static.dialogflow.com/common/messenger/webcomponentsjs/2.1.3/custom-elements-es5-adapter.js"></script><script src="https://static.dialogflow.com/common/messenger/webcomponentsjs/2.1.3/webcomponents-loader.js"></script>
+      <style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+         .fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+         .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+         .fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}
+      </style>
+      <style type="text/css">:root{--df-messenger-bot-message:#fff;--df-messenger-button-titlebar-color:#42a5f5;--df-messenger-button-titlebar-font-color:#fff;--df-messenger-chat-background-color:#fafafa;--df-messenger-font-color:rgba(0,0,0,.87);--df-messenger-input-box-color:#fff;--df-messenger-input-font-color:rgba(0,0,0,.87);--df-messenger-input-placeholder-font-color:#757575;--df-messenger-minimized-chat-close-icon-color:rgba(0,0,0,.87);--df-messenger-send-icon:#42a5f5;--df-messenger-user-message:#ddd;--df-messenger-chip-color:#fff;--df-messenger-chip-border-color:#e0e0e0}</style>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   </head>
+   <body style="background-image: url(&quot;includes-rwd/images/bacground_03.jpg&quot;);" data-new-gr-c-s-check-loaded="14.1040.0" data-gr-ext-installed="">
+      <script src="https://connect.facebook.net/en_GB/sdk.js?hash=f72fca8ed6403021659aeec6aeef02af" async="" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+      <link href="https://www.mohanfoundation.org/includes-rwd/css/bootstrap.css" rel="stylesheet">
+      <link href="https://www.mohanfoundation.org/includes-rwd/css/manul.css" rel="stylesheet">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://www.mohanfoundation.org/css/icons.css">
+      <link rel="stylesheet" href="https://www.mohanfoundation.org/css/style.css" type="text/css">
+      <link rel="stylesheet" href="https://www.mohanfoundation.org/css/main.css" type="text/css">
+      <link href="https://www.mohanfoundation.org/css/responsive.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="https://www.mohanfoundation.org/css/colors/color.css" title="color1">
+      <link rel="stylesheet" type="text/css" href="https://www.mohanfoundation.org/css/manul.css" title="color1">
+      <script type="text/javascript">
+         function changemysize(myvalue)
+         // this function is called by the user clicking on a text size choice
+         {
+         // find the div to apply the text resizing to
+         var div = document.getElementById("mymain");
+         // apply the text size change
+         div.style.fontSize = myvalue + "px";
+         // store the text size choice into a cookie
+         document.cookie="mysize=" + myvalue;
+         }
+         
+         function getmycookie(myname)
+         // this function is called by the function mydefaultsize()
+         // this function merely looks for any previously set cookie and then returns its value
+         {
+         // if any cookies have been stored then
+         if (document.cookie.length>0)
+           {
+         // where does our cookie begin its existence within the array of cookies  
+           mystart=document.cookie.indexOf(myname + "=");
+         // if we found our cookie name within the array then
+           if (mystart!=-1)
+             {
+         // lets move to the end of the name thus the beginning of the value
+         // the '+1' grabs the '=' symbol also
+             mystart=mystart + myname.length+1;
+         // because our document is only storing a single cookie, the end of the cookie is found easily
+             myend=document.cookie.length;
+         // return the value of the cookie which exists after the cookie name and before the end of the cookie
+             return document.cookie.substring(mystart,myend);
+             }
+           }
+         // if we didn't find a cookie then return nothing  
+         return "";
+         }
+         
+         function mydefaultsize(){
+         // this function is called by the body onload event
+         // this function is used by all sub pages visited by the user after the main page
+         var div = document.getElementById("mymain");
+         // call the function getmycookie() and pass it the name of the cookie we are searching for
+         // if we found the cookie then
+         	if (getmycookie("mysize")>0)
+         	{
+         // apply the text size change	
+         	div.style.fontSize = getmycookie("mysize") + "px";
+         	}
+         }
+         
+         
+          
+      </script>
+      <script>
+         document.addEventListener('contextmenu', event => event.preventDefault());
+      </script>
+      <style>
+         @media print
+         {
+         .noprint {display:none;}
+         }
+         /*body {
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         -user-select: none;
+         }*/
+      </style>
+      <div style="background:#ebf0f0" class=" mob-view">
+         <div class="container">
+            <div class="col-sm-6">
+               <ul class="list-unstyled list-inline  lay-1 pull-left">
+                  <li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.facebook.com/pages/Mohan-Foundation/239983060819" title=""><i style="color:#22235B;" class="fa fa-facebook"></i></a></li>
+                  <li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://twitter.com/mohanfoundation" title=""><i style="color:#22235B;" class="fa fa-twitter"></i></a></li>
+                  <li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.youtube.com/subscription_center?add_user=mohanfoundation" title=""><i style="color:#22235B;" class="fa fa-youtube"></i></a></li>
+                  <li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.instagram.com/mohanfound/" title=""><i style="color:#22235B;" class="fa fa-instagram"></i></a></li>
+                  <li style="padding: 0 10px;"> <a itemprop="url" target="_blank" href="https://www.linkedin.com/company/mohan-foundation/" title=""><i style="color:#22235B;" class="fa fa-linkedin"></i></a></li>
+                  <li>
+                     <a style="color:#22235B; font-size:14px;" target="_blank" href="https://www.globalgiving.org/projects/training-to-augment-organ-donation-in-india">Global Giving US Nationals</a>
+                  </li>
+                  <li>
+                     <div class="">
+                        <span class="dropdown link-box1">
+                           <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#22235B; padding-left: 10px; font-size:14px;">Explore <b class="caret"></b></a>
+                           <ul style="margin-top:0px;height:auto;" class="dropdown-menu" role="menu">
+                              <li><a href="https://www.mohanfoundation.org/newsletters/itns/index.asp">Indian Transplant Newsletter</a></li>
+                              <li><a href="https://www.mohanfoundation.org/qa.asp">FAQ's</a></li>
+                              <li><a href="https://www.mohanfoundation.org/request-for-using-mohan-foundation-material.asp">Request To Use MF Content</a></li>
+                              <li><a href="https://www.mohanfoundation.org/benefits.asp">Membership Benefits</a></li>
+                              <li><a href="https://www.mohanfoundation.org/feedback.asp">Feedback</a></li>
+                              <li><a href="https://www.mohanfoundation.org/enquiry.asp">Enquiry</a></li>
+                              <li><a href="https://www.mohanfoundation.org/sitemap.asp">Sitemap</a></li>
+                           </ul>
+                        </span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-6">
+               <ul class="list-unstyled list-inline flt-rht lay-1 pull-right">
+                  <li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/contact.asp">Contact Us</a></li>
+                  <li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/RegisterStep1.asp?Sendto=">Registration</a></li>
+                  <li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/login.asp">Login</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div style="background-color:#FFFFFF;" class="container mob-view">
+         <div class="lay-2 pad-bot">
+            <div class="ver-link">
+               <ul class="list-unstyled">
+                  <li data-toggle="tooltip" data-placement="left" title="" data-original-title="Login">
+                     <a href="https://www.mohanfoundation.org/regis/login.asp">
+                        <center><span style="padding:5px 0px;" class="glyphicon glyphicon-user"></span></center>
+                     </a>
+                  </li>
+                  <li data-toggle="tooltip" data-placement="left" title="" data-original-title="Twitter">
+                     <a href="https://twitter.com/mohanfoundation" target="_blank">
+                        <center><img src="https://www.mohanfoundation.org/includes-rwd/images/twitter1.png"></center>
+                     </a>
+                  </li>
+                  <li data-toggle="tooltip" data-placement="left" title="" data-original-title="Facebook">
+                     <a href="https://www.facebook.com/pages/Mohan-Foundation/239983060819" target="_blank">
+                        <center><img src="https://www.mohanfoundation.org/includes-rwd/images/facebook.png"></center>
+                     </a>
+                  </li>
+                  <li data-toggle="tooltip" data-placement="left" title="" data-original-title="Youtube">
+                     <a href="https://www.youtube.com/subscription_center?add_user=mohanfoundation" target="_blank">
+                        <center><img src="https://www.mohanfoundation.org/includes-rwd/images/youtube-1.png"></center>
+                     </a>
+                  </li>
+                  <li data-toggle="tooltip" data-placement="left" title="" data-original-title="Home">
+                     <a href="https://www.mohanfoundation.org/index.asp">
+                        <center><span style="padding:5px 0px;" class="glyphicon glyphicon-home"></span></center>
+                     </a>
+                  </li>
+                  <li data-toggle="tooltip" data-placement="left" title="" data-original-title="Up">
+                     <a href="#">
+                        <center><span style="padding:5px 0px;" class="glyphicon glyphicon-arrow-up"></span></center>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="container mohanIconWrapper">
+               <div class="pull-left"><a href="https://www.mohanfoundation.org"><img src="https://www.mohanfoundation.org/images/mohan-foundation-icon-ver2.png" title="MOHAN Foundation" alt="MOHAN Foundation"></a></div>
+               <div class="pull-right">
+                  <a href="https://www.mohanfoundation.org/helpline.asp">
+                     <div class="organ_helpline fleft">Organ Donation Helpline (Toll Free)<br><img src="https://www.mohanfoundation.org/images/phone_icon.png"><span class="phone_no">1800 103 7100</span></div>
+                  </a>
+                  <a href="https://hi.mohanfoundation.org" target="_blank" class="btn1 btn-info">HINDI SITE</a>
+                  <a href="https://www.mohanfoundation.org/donorcard.asp" class="btn1 " style="background-color: green; color:#fff">PLEDGE ORGANS</a>
+                  <a href="https://www.mohanfoundation.org/help.asp" class="btn1 btn-danger">DONATE FUNDS</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div style="background-color:#fff;" class="container mob-view-header">
+         <div class="row">
+            <div class="col-sm-3">
+               <div style="float:left;">
+                  <a href="https://www.mohanfoundation.org/index.asp"><img class="img-responsive" src="https://www.mohanfoundation.org/includes-rwd/images/logo-mobile-ver2.png"></a>
+               </div>
+            </div>
+            <div class="col-sm-9">
+               <ul class="list-unstyled list-inline flt-rht lay-1">
+                  <li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/contact.asp">Contact Us</a></li>
+                  <li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/RegisterStep1.asp?Sendto="><img style="border:1px solid #00CC00;background:#00CC00;border-radius:3px;" src="https://www.mohanfoundation.org/includes-rwd/images/registration.png" title="Register"></a></li>
+                  <li><a style="color:#22235B;font-size:14px;" href="https://www.mohanfoundation.org/regis/login.asp"><img style="border:1px solid #0E3077;background:#0E3077;border-radius:3px;" src="https://www.mohanfoundation.org/includes-rwd/images/login.png" title="Login"></a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="lay-2 pad-bot">
+            <div class="col-md-12" style="text-align: center;  padding: 10px;">
+               <a href="https://www.mohanfoundation.org/helpline.asp">
+                  <div class="">Organ Donation Helpline<br><img src="https://www.mohanfoundation.org/images/phone_icon.png"><span class="phone_no">1800 103 7100</span></div>
+               </a>
+            </div>
+            <div class="col-md-12" style="text-align: center;  padding: 10px;">
+               <a href="https://www.mohanfoundation.org/donorcard.asp" class="btn1 " style="background-color: green; color:#fff">PLEDGE ORGANS</a>
+               <a href="https://www.mohanfoundation.org/help.asp" class="btn1 btn-danger">DONATE FUNDS</a>
+            </div>
+            <div class="col-md-12" style="text-align: center;  padding: 10px;">
+               <span class="dropdown link-box1">
+                  <a class="dropdown-toggle btn1 btn-warning" style="background-color: #ff6600;" data-toggle="dropdown">EXPLORE <b class="caret"></b></a>
+                  <ul style="margin-top:0px;height:auto;" class="dropdown-menu" role="menu">
+                     <li><a href="https://www.mohanfoundation.org/newsletters/itns/index.asp">Indian Transplant Newsletter</a></li>
+                     <li><a href="https://www.mohanfoundation.org/qa.asp">FAQ's</a></li>
+                     <li><a href="https://www.mohanfoundation.org/request-for-using-mohan-foundation-material.asp">Request To Use MF Content</a></li>
+                     <li><a href="https://www.mohanfoundation.org/benefits.asp">Membership Benefits</a></li>
+                     <li><a href="https://www.mohanfoundation.org/feedback.asp">Feedback</a></li>
+                     <li><a href="https://www.mohanfoundation.org/enquiry.asp">Enquiry</a></li>
+                     <li><a href="https://www.mohanfoundation.org/sitemap.asp">Sitemap</a></li>
+                  </ul>
+               </span>
+               <a href="https://hi.mohanfoundation.org" target="_blank" class="btn btn-info btn-sm">HINDI SITE</a>
+            </div>
+         </div>
+      </div>
+      <div id="noty-holder"></div>
+      <script>
+         $(function(){
+         if($(window).width() > 960){
+         	//$('.dropdown').hover(function() {
+         //			 $(this).toggleClass('open');
+         //		});	
+         $('.dropdown').mouseenter(function() { 
+         $(this).addClass('open');
+         }); 
+         $('.dropdown').mouseleave(function() {
+         $(this).removeClass('open');
+         });
+         } else {
+         	
+         }
+           $('[data-toggle="tooltip"]').tooltip();
+           $("[data-placement=left]").hover(function(){
+         $('.tooltip').css('margin-right',parseInt($('.tooltip').css('right')) + 250 + 'px')
+         });
+         });
+      </script>
+      <div id="fb-root" class=" fb_reset">
+         <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+            <div></div>
+         </div>
+      </div>
+      <script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&amp;version=v11.0" nonce="AZWtLlzj"></script>
+      <div class="nav-bg">
+         <div class="container top-menu-container">
+            <nav class="navbar navbar-inverse navbar-static-top marginBottom-0 affix-top" role="navigation" data-spy="affix" data-offset-top="197">
+               <div class="navbar-header">
+                  <div class="mob-view-header">
+                     <a class="col-md-6 navbar-brand" href="https://www.mohanfoundation.org"><img src="https://www.mohanfoundation.org/includes-rwd/images/home.png"></a>
+                  </div>
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+               </div>
+               <div class="collapse navbar-collapse container top-menu-container" id="navbar-collapse-1" style="max-height: 450px; overflow-y: scroll;">
+                  <ul class="nav navbar-nav">
+                     <li class="dropdown"><a href="https://www.mohanfoundation.org"> <img class="menu-icon" src="https://www.mohanfoundation.org/images/Home.png" data-pin-nopin="true">HOME</a></li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img class="menu-icon" src="https://www.mohanfoundation.org/images/AboutUs.png" data-pin-nopin="true"> ABOUT US<b class="caret"></b></a>
+                        <ul class="dropdown-menu meg-nav-divider1">
+                           <div class="row">
+                              <div class="col-sm-4 meg-nav-divider-col">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785;"><strong>Who We are</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/who.asp">Our History</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/who.asp#ch">Vision &amp; Mission</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/trustees.asp">Trustees &amp; Members </a></li>
+                                    <li><a href="https://www.mohanfoundation.org/advisory-members.asp">Advisory Members </a></li>
+                                    <li><a href="https://www.mohanfoundation.org/supporting-organisations.asp">Our Partners</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/tax-benefits.asp">Our Tax Status</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/annual-reports.asp">Annual Reports</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/awards.asp">Awards &amp; Accolades</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-4 meg-nav-divider-col">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785;"> <strong>What We do</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/anudaan.asp">Anudaan – Making Transplants Affordable</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/research-and-publications.asp">Research &amp; Publications</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/survey.asp">Organ Donation Survey</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/donor-memorial/index.asp">Donor Memorial</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/patient.asp">Patient Support Group</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/transplant-coordinators-training-programme.asp">Transplant Coordinators’ Training Programme</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/profile/changemakers.asp">Changemakers</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-4 meg-nav-divider-col">
+                                 <p style="border-bottom: 2px solid #133785;  "><strong>Transplant Registries</strong></p>
+                                 <ul class="list-unstyled">
+                                    <li><a href="http://www.knos.org.in/" target="_blank">Kerala</a></li>
+                                    <li><a href="http://www.rnos.org/" target="_blank">Rajasthan</a></li>
+                                    <li><a href="http://www.tnos.org/" target="_blank">Tamil Nadu</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img class="menu-icon" src="https://www.mohanfoundation.org/images/News&amp;events.png" data-pin-nopin="true"> NEWS &amp; EVENTS<b class="caret"></b></a>
+                        <ul class="dropdown-menu meg-nav-divider2">
+                           <div class="row">
+                              <div class="col-sm-5 meg-nav-divider-col ">
+                                 <p style="border-bottom: 2px solid #133785;  "><strong>News &amp; Events</strong></p>
+                                 <ul class="list-unstyled">
+                                    <li><a href="https://www.mohanfoundation.org/transplant_organ_donation_news.asp">Latest News</a></li>
+                                    <li><a href="https://blog.mohanfoundation.org/" target="_blank">MOHAN Foundation Blog</a></li>
+                                    <li><a href="https://txnews.mohanfoundation.org/" target="_blank">Transplant News Blog</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/mohan-press-release/index.asp">MOHAN Foundation Press Release</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/press_release/press_release_new.asp">Press &amp; Media</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/upcoming-programmes.asp">Events Calendar</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/commonwealth-tribute-to-life.asp">Commonwealth Event</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-4 meg-nav-divider-col">
+                                 <p style="border-bottom: 2px solid #133785;  "><strong>Activities</strong></p>
+                                 <ul class="list-unstyled">
+                                    <li><a href="https://www.mohanfoundation.org/activities/activity-index.asp">Latest Activities</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/TRIOMPH-patient-support-group-activities.asp">TRIOMPH - Patient Support Group</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/synchrony-dialogues.asp">Synchrony Dialogues</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Bangalore">Bangalore</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Belagavi">Belagavi</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chennai">Chennai</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chandigarh">Chandigarh</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Delhi">Delhi-NCR</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-3 meg-nav-divider-col " style="padding-top:30px;">
+                                 <ul class="list-unstyled">
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Hyderabad">Hyderabad</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Jaipur">Jaipur</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Trivandrum">Kerala</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Manipur">Manipur</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Mumbai">Mumbai</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Nagpur">Nagpur</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Goa">Goa</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Pune">Pune</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=USA">USA</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/Law.png" data-pin-nopin="true">LAW<b class="caret"></b></a>
+                        <ul class="dropdown-menu meg-nav-divider3">
+                           <div class="row">
+                              <div class="col-sm-6 meg-nav-divider-col">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>Acts, Rules, Bills &amp; GOs</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/tho/thobill1.asp">Transplantation of Human Organs Act 1994</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/tho/tho_rules1.asp">Transplantation of Human Organs Rule 2008</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/THO-amendment-bill-2011.pdf">THO Amendment Bill 2011</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/THO-amendment-act-2011.pdf">THO Amendment Act 2011</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/THO-Rules-2014.pdf">THO Rules 2014</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/tho-forms.asp">THO FORMS</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/government-orders/tamil-nadu-gos.asp">Tamil Nadu GO’s</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/government-orders/kerala-gos.asp">Kerala GO's</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/government-orders/maharashtra-government-resolutions.asp">Maharashtra Government Resolutions</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-6 meg-nav-divider-col">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>Orders, Judgements &amp; Forms</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/Path-Breaking-Order-for-Inquest.asp">Inquest Order </a></li>
+                                    <li><a href="https://www.mohanfoundation.org/images/BRAIN-STEM-DEATH-CERTIFICATION-GUIDELINES-KERALA.pdf">Brain Stem Death Certification Guidelines - Kerala</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/DelhiHighcourt-judgement-OrganTransplant-NOCStateGovt.pdf">Delhi High Court Judgement on Organ Transplant NOC State Government</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/Summary-Of-The-Delhi-High-Court-Judgement.pdf">Summary of Delhi High Court Judgement</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/wr1152009.pdf">Supreme Court Judgement on Euthanasia</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/loksabha/loksabhaQA.asp">Lok Sabha Discussion on Organ Donation</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/approval-for-renal-transplantation.asp">Requirements for Approval For Renal Transplantation</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/OpenResource.png" data-pin-nopin="true">OPEN RESOURCES<b class="caret"></b></a>
+                        <ul class="dropdown-menu meg-nav-divider6">
+                           <div class="row">
+                              <div class="col-sm-6 meg-nav-divider-col ">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>Promotion Material</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/organ-donation-transplant-resources/index.asp">Articles</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/videos/index.asp">Videos</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/videos/celebrity-endorsements.asp">Celebrity Endorsements Videos</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/slides/index.asp">Powerpoint Presentations</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/transplant-centres/index.asp">Transplant Centres in India</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/newsletters/lifepassiton-archives.asp">Life... Pass It On</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/transplant-news-letter.asp">Indian Transplant Newsletter</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/newsletters/brochures.asp">Brochures</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/proceedings/index.asp">Meeting/Conference Proceedings</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-6 meg-nav-divider-col">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>Galleries</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/PhotoGallery/index.html">MOHAN Foundation Gallery</a></li>
+                                    <p style="border-bottom: 2px solid #133785; padding-top:3px;"><strong>Others</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/brain-death.asp">Brain Death</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/body-donation.asp">Body Donation</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/eye-banks.asp">Eye Banks</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/skin-banks.asp">Skin Banks</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/mobile-apps/index.asp">Mobile Apps</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/ISOT-frames-transplant-guidelines-during-COVID-19-outbreak.asp">ISOT Tx guidelines during COVID-19</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/GetInvolved.png" data-pin-nopin="true">GET INVOLVED<b class="caret"></b></a>
+                        <ul class="dropdown-menu meg-nav-divider4">
+                           <div class="row">
+                              <div class="col-sm-6 meg-nav-divider-col">
+                                 <a href="https://www.mohanfoundation.org/get-involved.asp">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>Support Organ Donation</strong></p>
+                                 </a>
+                                 <ul class="list-unstyled">
+                                    <li><a href="https://www.mohanfoundation.org/organ-donation-ambassador.asp">Organ Donation Ambassador</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/life-membership.asp">Life Membership &amp; Advocacy </a></li>
+                                    <li><a href="https://www.mohanfoundation.org/giftshop/index.asp">Gift Shop</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/public-advocacy.asp">Public Advocacy for Organ Donation</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/corporate-advocacy.asp">Corporate Advocacy</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/support-social-media.asp">Support Us on Social Media</a></li>
+                                    <a href="https://www.globalgiving.org/projects/training-to-augment-organ-donation-in-india" target="_blank"><img class="img-responsive" src="https://www.mohanfoundation.org/includes-rwd/images/global-giving.jpg"></a>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-6 meg-nav-divider-col">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785;  "><strong>Help Us Save Lives</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/anudaan.asp">Anudaan – Making Transplants Affordable</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/internships.asp">Internship</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/volunteer.asp">Volunteering</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/help-us-Conduct-an-awareness-program.asp">Help Us Conduct an Awareness Program</a></li>
+                                    <a href="https://www.mohanfoundation.org/help.asp"><img class="img-responsive" src="https://www.mohanfoundation.org/includes-rwd/images/tax-benefits.jpg"></a>
+                                 </ul>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/knowledgeCentre.png" data-pin-nopin="true">COURSES<b class="caret"></b></a>
+                        <ul class="dropdown-menu meg-nav-divider5">
+                           <div class="row">
+                              <div class="col-sm-6 meg-nav-divider-col ">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785;  "><strong>Transplant Coordinators' Training Programme</strong></p>
+                                    <li><a href="https://courses.mohanfoundation.org/index.asp">Course Details</a></li>
+                                    <li><a href="https://courses.mohanfoundation.org/one-week-transplant-coordinators-training-programme.asp">One Week Course</a></li>
+                                    <li><a href="https://courses.mohanfoundation.org/one-month-transplant-coordinators-training-programme.asp">One Month Course</a></li>
+                                    <li><a href="https://courses.mohanfoundation.org/course-structure.asp">Course Structure &amp; Eligibility</a></li>
+                                    <li><a href="https://courses.mohanfoundation.org/course-news.asp">Training Programme Reports</a></li>
+                                    <li><a href="https://mohanfoundation.org/feedback/training-programme-feedback.asp">Testimonials</a></li>
+                                 </ul>
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>Others
+                                       </strong>
+                                    </p>
+                                    <li><a href="https://www.mohanfoundation.org/masterclasses.asp">Masterclasses </a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-sm-6 meg-nav-divider-col">
+                                 <p></p>
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>E-Learning Courses
+                                       </strong>
+                                    </p>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/elearning-programme.asp">Post Graduate Diploma in Transplant Coordination and Grief Counselling</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/transplant-coordination-elearning-programme.asp">Transplant Coordination Professional Certificate</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/oneday-elearning-programme.asp">Gift of Life : One-day certificate course</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/taking-care-of-your-kidneys-online-course.asp">Taking Care of Your Kidneys</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/family-counselling-online-course.asp">Family Counselling &amp; Conversations</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/legal-aspects-online-course.asp">Legal Aspects of Organ Donation</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/training-programme/surgical-elearning-register.asp">Multi-Organ Retrieval Course</a></li>
+                                 </ul>
+                                 <ul class="list-unstyled">
+                                 </ul>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="menu-icon" src="https://www.mohanfoundation.org/images/Impact.png" data-pin-nopin="true">IMPACT<b class="caret"></b></a>
+                        <ul class="dropdown-menu meg-nav-divider7">
+                           <div class="row">
+                              <div class="col-sm-12 meg-nav-divider-col">
+                                 <ul class="list-unstyled">
+                                    <p style="border-bottom: 2px solid #133785; "><strong>Impact of Our Work</strong></p>
+                                    <li><a href="https://www.mohanfoundation.org/MOHAN-Impact-India.asp">MOHAN Impact - India</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/national-deceased-donor-transplantation.asp">Deceased Organ Donation in India</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Tamil%20Nadu">Tamil Nadu</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Telangana">Telangana</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Kerala">Kerala</a></li>
+                                    <li><a href="#">Maharashtra</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Rajasthan">Rajasthan</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Delhi-NCR">Delhi/NCR</a></li>
+                                    <li><a href="https://www.mohanfoundation.org/inos-figures.asp">INOS</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <div class="container container-bg">
+         <div class="row">
+            <div class="col-sm-12">
+               <ol class="breadcrumb">
+                  <li><a href="https://www.mohanfoundation.org/index.asp">Home</a></li>
+                  <li class="active">Contact Us</li>
+               </ol>
+            </div>
+            <div class="col-lg-12" id="mymain" onload="mydefaultsize()">
+               <h2>Contact Us</h2>
+               <div class="brd-btm-solid"></div>
+               <span class="heart-img"><img src="https://www.mohanfoundation.org/includes-rwd/images/home_002_04.jpg"></span>
+               <div class="lay-1">
+                  <center>
+                     <h4><strong style="color:#333333;text-decoration:underline;">Toll Free Organ Donation Helpline - 1800 1037100</strong></h4>
+                  </center>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Chennai (Headquarters)</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           3rd Floor, Toshniwal Building,<br>
+                           267, Kilpauk Garden Road<br>
+                           Chennai-600 010. India. <br>
+                           <abbr title="Phone">P:</abbr> 044-26447000<br>
+                           <abbr title="Mobile">M:</abbr> 94446 07000<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">info@mohanfoundation.org</a></li>
+                              <li><a style="color:#000000;" href="mailto:#">mohanfound@gmail.com</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Hyderabad</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           Ms. Lalitha Raghuram, <span class="red">Country Director,</span><br>
+                           #6-3-634, Flat B-1/A, Second Floor,<br>
+                           Green Channel, Khairatabad,<br>
+                           Hyderabad 500 004.<br>
+                           Mr. Bhanuchandra +91-93924 56355<br>
+                           Mr. Bhanu Prakash +91-92900 94245<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">lalitha@mohanfoundation.org</a></li>
+                              <li><a style="color:#000000;" href="mailto:#">hyd.mohanfoundation@yahoo.co.in</a></li>
+                              <li><a style="color:#000000;" href="mailto:#">hyd@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Delhi - NCR</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           Ms. Pallavi Kumar, <span class="red">Executive Director,</span><br>
+                           284 F, B-Block,<br>
+                           SushantLok Phase-I,<br>
+                           Landmark : Behind Vipul Square/Convergys Building<br>
+                           Gurgaon - 122002 <br>
+                           <abbr title="Phone">P:</abbr> 0124 – 4115211 (9.00 AM to 5.00 PM)<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">pallavi@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="clear-both"></div>
+                  <div class="clear-both"></div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Chandigarh</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           Mr. Sudhir Dewan, <span class="red">Director,</span><br>
+                           109, Sector-8A,<br>
+                           Chandigarh - 160009.<br>
+                           <abbr title="Mobile">M:</abbr> +91 95015 34590, +91 97791 35408<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">chandigarh@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Nagpur</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           Dr. Ravi Wankhede, <span class="red"></span><br>
+                           J-12, Laxmi Nagar,<br>
+                           West High Court Road,<br>
+                           Nagpur - 440022. Maharashtra.<br>
+                           <abbr title="Phone">P:</abbr> 0712 - 3275970<br>
+                           <abbr title="Mobile">M:</abbr> +91 9423683350/9372760691/8895730512<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">raviwankhede@mohanfoundation.org</a></li>
+                              <li><a style="color:#000000;" href="mailto:#">nagpur@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Jaipur</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MFJCF</strong><br>
+                           Ms. Bhavna Jagwani, <span class="red">Convenor.</span><br>
+                           C-103, Lal Kothi Scheme,<br> Jaipur - 302015<br>
+                           <abbr title="Mobile">M:</abbr> +91 9799003860<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">office@mfjcfnavjeevan.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="clear-both"></div>
+                  <div class="clear-both"></div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Mumbai</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           7th Floor, Trust House,<br>
+                           35, Hospital Avenue,<br>
+                           Dr.E.Borges Road, <br>
+                           Parel, <br>Mumbai-400012. <br>
+                           <abbr title="Mobile">P:</abbr> 022 - 61331058, 61331062<br>
+                           <abbr title="Mobile">M:</abbr> +91 8291711936<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">mumbai@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Bengaluru</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           Mr. Shridhar Hanchinal<br>
+                           #102, 1st Floor, Money Terrace, <br>
+                           No. 100, KH Road, Above Bharat Bank,<br>
+                           Bengaluru - 560027, Karnataka.
+                           <br>
+                           <abbr title="Mobile">M:</abbr> +91 9886783008<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">shridhar@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Imphal</strong></h4>
+                           <strong tyle="color:#2CA0CA;">Ms.. Roma Devi</strong><br>
+                           <abbr title="Mobile">M:</abbr> +91 8119085083<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">roma@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="clear-both"></div>
+                  <div class="clear-both"></div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Kerala</strong></h4>
+                           <strong tyle="color:#2CA0CA;">Mrs. Kavitha Aneesh</strong><br>
+                           <abbr title="Mobile">M:</abbr> +91 9447691127<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">kavitha@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">Goa</strong></h4>
+                           <strong tyle="color:#2CA0CA;">Mr. Gabriel John Pereira</strong><br>
+                           <abbr title="Mobile">M:</abbr> +91 9823993800<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">gabriel@mohanfoundation.org</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="lay-1 donor-menories-bgnew">
+                        <address style="font-size:15px;">
+                           <h4><strong style="color:#2CA0CA;text-decoration:underline;">United States</strong></h4>
+                           <strong tyle="color:#2CA0CA;">MOHAN Foundation</strong><br>
+                           Dr. Anirban Bose<br>
+                           28 Church Street<br>
+                           Pittsford,<br>
+                           NY 14534<br>
+                           <abbr title="Mobile">M:</abbr> 585 719 6112<br>
+                           <ul class="list-inline list-unstyled">
+                              <li><strong>Email:</strong></li>
+                              <li><a style="color:#000000;" href="mailto:#">dr.anirbanbose@gmail.com</a></li>
+                           </ul>
+                        </address>
+                     </div>
+                  </div>
+               </div>
+               <div class="clear-both"></div>
+               <center>
+                  <h4><strong style="color:#333333;text-decoration:underline;">Toll Free Organ Donation Helpline - 1800 1037100</strong></h4>
+               </center>
+            </div>
+         </div>
+      </div>
+      <div class="clear-both"></div>
+      <div class="footer">
+         <style>
+            .item-text {
+            position: relative;
+            overflow: hidden;
+            text-align:center;
+            }.item-text1 {
+            position: relative;
+            text-align:center;
+            }
+            .thumbnail{padding: 0; margin-bottom: 0;}
+            #noty-holder {
+            position: fixed;
+            bottom: 0px;
+            margin-right: auto;
+            margin-left: auto;
+            z-index:10000;
+            width: 100%;
+            float: left;
+            text-align: center;
+            background-color: #0779BF;
+            /* Safari 4-5, Chrome 1-9 */
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0779BF), to(#0779BF));
+            /* Safari 5.1, Chrome 10+  */
+            background: -webkit-linear-gradient(top, #0779BF, #0779BF);
+            /* Firefox 3.6+  */
+            background: -moz-linear-gradient(top, #0779BF, #0779BF);
+            /* IE 10  */
+            background: -ms-linear-gradient(top, #0779BF, #0779BF);
+            /* Opera 11.10+  */
+            background: -o-linear-gradient(top, #0779BF, #0779BF);
+            }
+            #noty-holder .alert {
+            margin-bottom: 0;
+            color: #FFF;
+            font-size: 14px;
+            }
+            #noty-holder .alert a {
+            color: #FFF;
+            border-bottom: 2px solid #FFF;
+            }
+            #noty-holder .alert a:hover {
+            text-decoration: none;
+            }
+            #noty-holder .alert .close-ii{
+            cursor: pointer;
+            border-bottom: 2px solid #FFF;
+            }
+            #noty-holder .ctas{
+            text-align:center;
+            }
+            #noty-holder .cta__close{
+            display: none;
+            }
+            @media (min-width: 1024px){
+            #noty-holder .ctas{
+            margin-top: 3px;
+            margin-right: 50px;
+            float:right;
+            }
+            #noty-holder .cta__close{
+            display: inline-block;
+            }
+            #noty-holder .close{
+            display: none;
+            }
+            }
+            #noty-holder .cookie__cta{
+            background: #fff;
+            color: #000!important;
+            font-size: 12px;
+            line-height: 20px;
+            text-decoration: none;
+            padding: 0 8px;
+            border-radius: 6px;
+            border: 1px solid #dcdcdc;
+            }
+            .cookie__cta + .cookie__cta{
+            margin-left: 10px;
+            }
+            .close{
+            opacity: 1;
+            }
+            .close span{
+            color: #FFF;
+            border: 1px solid #fff;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            line-height: 15px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 18px;
+            padding-left:3px;
+            padding-right:3px;
+            }
+            .ctas a, .ctas span{
+            display: inline-block;
+            }
+         </style>
+         <script language="javascript">
+            function validatenew()
+            {
+             
+            if ((document.formnew.subsemail.value) == "")
+            	{
+            		alert("Please Enter your Email ID")
+            		document.formnew.subsemail.focus()
+            		return false;
+            	}
+            else if ((document.formnew.subsemail.value.indexOf("@")<=0) || (document.formnew.subsemail.value.indexOf(".")<=0)  || ((document.formnew.subsemail.value.indexOf(".")-(document.formnew.subsemail.value.indexOf("@")))<=1)||( ( (document.formnew.subsemail.value.length)-(document.formnew.subsemail.value.lastIndexOf(".")))<=2))
+            	{
+            		alert("Please enter your Correct EMail ID");
+            		document.formnew.subsemail.select()
+            		return false;
+            	}
+            	 
+             
+            	return true;
+            }
+            	
+         </script>
+         <footer style="background-image: url(&quot;https://www.mohanfoundation.org/images/footer-img.jpg&quot;);">
+            <div class="parallax "></div>
+            <div class="block ">
+               <div class="container">
+                  <div class="footer-widgets">
+                     <div class="row">
+                        <div class="table-responsive">
+                           <table class="table table-bordered">
+                              <thead>
+                                 <tr class="warning">
+                                    <td colspan="2" align="justify"><strong>Charity Status: MOHAN Foundation is a registered non-profit charitable trust and the Registration No. 285 of 98 dated 4th August 1997. All contributions are exempt under section 80-G of the Income Tax Act 1961.</strong></td>
+                                 </tr>
+                              </thead>
+                           </table>
+                        </div>
+                        <div class="col-md-3 column">
+                           <div class="widget">
+                              <div class="contact-widget">
+                                 <a href="https://www.mohanfoundation.org/helpline.asp">
+                                    <h5>Organ Donation Helpline <br><span>1800 103 7100 <small style="color:#fff;"> (Toll Free)</small></span></h5>
+                                 </a>
+                                 <div class="widget-title">
+                                    <h4>Head Office</h4>
+                                 </div>
+                                 <ul>
+                                    <li><i class="fa fa-map-marker"></i>3rd Floor, Toshniwal Building, <br> &nbsp; &nbsp; &nbsp; 267 Kilpauk Garden Road,Chennai-600 010.</li>
+                                    <li><i class="fa fa-phone"></i>+91 44 26447000</li>
+                                    <li><i class="fa fa-envelope"></i>info@mohanfoundation.org</li>
+                                 </ul>
+                              </div>
+                              <div class="widget">
+                                 <div class="widget-title">
+                                    <h4>Transplant Registries</h4>
+                                 </div>
+                                 <ul>
+                                    <li><a href="http://www.tnos.org/" target="_blank">Tamil Nadu Network for Organ Sharing</a></li>
+                                    <li><a href="http://www.knos.org.in/" target="_blank">Kerala Network for Organ Sharing</a></li>
+                                    <li><a href="http://www.rnos.org/" target="_blank">Rajasthan Network for Organ Sharing</a></li>
+                                 </ul>
+                              </div>
+                              <div class="">
+                                 <center class="pad-bot"><a style="width:200px; margin: 3px;" class="btn btn-md btn-danger" href="https://www.mohanfoundation.org/help.asp">Donate Funds</a></center>
+                                 <center class="pad-bot"><a style="width:200px; margin: 3px;" class="btn btn-md btn-primary" href="https://www.mohanfoundation.org/survey.asp">Take a Survey</a></center>
+                                 <center class="pad-bot"><a style="width:200px; margin: 3px; background-color: green; color:#fff;" class="btn btn-md " href="https://www.mohanfoundation.org/donorcard.asp">Pledge Organs</a></center>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 column">
+                           <div class="widget">
+                              <div class="widget-title">
+                                 <h4><span>Home</span></h4>
+                              </div>
+                              <ul>
+                                 <li><a href="https://www.mohanfoundation.org/who.asp">About Us</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/contact.asp">Contact Us</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/annual-reports.asp">Annual Reports</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/volunteer.asp">Volunteering</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/internships.asp">Internship</a></li>
+                              </ul>
+                           </div>
+                           <div class="widget">
+                              <div class="widget-title">
+                                 <h4>Organ Donors</h4>
+                              </div>
+                              <ul>
+                                 <li><a href="https://www.mohanfoundation.org/donor-memorial/index.asp">Donor Memorial</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/download-animation.asp?image=to_remember_me">Life Pass It On</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/donorcard.asp">Donor Cards</a></li>
+                              </ul>
+                           </div>
+                           <div class="widget">
+                              <div class="widget-title">
+                                 <h4>Mobile Apps</h4>
+                              </div>
+                              <ul>
+                                 <li><a href="https://www.mohanfoundation.org/mobile-apps/donor-optimisation.asp">Donor Optimisation Mobile App</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/mobile-apps/e-donor-card.asp">E-Donor Card App</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/mobile-apps/organ-donation-helpline-app.asp">Organ Donation App</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/mobile-apps/brain-death-certification-app.asp">Brain Death Certification App</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-3 column">
+                           <div class="widget">
+                              <div class="widget-title">
+                                 <h4>Activities</h4>
+                              </div>
+                              <ul>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chennai">Chennai</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Hyderabad">Hyderabad</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Delhi">Delhi</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Nagpur">Nagpur</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Chandigarh">Chandigarh</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Jaipur">Jaipur</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Bangalore">Bangalore</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/activities/index.asp?slt_city=Trivandrum">Kerala</a></li>
+                              </ul>
+                           </div>
+                           <div class="widget">
+                              <div class="widget-title">
+                                 <h4>Public Education</h4>
+                              </div>
+                              <ul>
+                                 <li><a href="https://www.mohanfoundation.org/transplant_organ_donation_news.asp">News</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/newsletters/brochures.asp">Brochures</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/survey.asp">Survey</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/download-animation.asp?image=brain_death">Brain Death Quotations</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/free-downloads.asp">Free Downloads</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-3 column">
+                           <div class="widget">
+                              <div class="widget-title">
+                                 <h4>Physician Education</h4>
+                              </div>
+                              <ul>
+                                 <li><a href="https://www.mohanfoundation.org/transplant_organ_donation_news.asp">News</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/transplant-news-letter.asp">Transplant Newsletter</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/SlidesSection.asp">Slides</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/publications.asp">Publication</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/cadaveric-organ-donation-figures.asp?state=Andhra%20Pradesh">Stats- Organ Donation</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/government-orders/tamil-nadu-gos.asp">TN GO'S</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/government-orders/andhra-pradesh-gos.asp">Andhra Pradesh Order</a></li>
+                              </ul>
+                           </div>
+                           <div class="widget">
+                              <div class="widget-title">
+                                 <h4>Transplant Coordinator Course</h4>
+                              </div>
+                              <ul>
+                                 <li><a href="https://courses.mohanfoundation.org/index.asp">Course Details</a></li>
+                                 <li><a href="https://courses.mohanfoundation.org/one-week-transplant-coordinators-training-programme.asp">One Week Course</a></li>
+                                 <li><a href="https://courses.mohanfoundation.org/one-month-transplant-coordinators-training-programme.asp">One Month Course</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/training-programme/elearning-programme.asp">One Year E-Learning Course</a></li>
+                                 <li><a href="https://www.mohanfoundation.org/feedback/training-programme-feedback.asp">Testimonials</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-bar">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6 column">
+                        <div class="newsletter-signup">
+                           <h4 class="footer-bar-title"><a name="subs"></a>Sign Up <span>Newsletter</span></h4>
+                           <form name="formnew" method="post" action="https://www.mohanfoundation.org/subscribe-success.asp" onsubmit="return validatenew();" class="form-horizontal">
+                              <input type="text" name="subsemail" placeholder="Enter Your Email">
+                              <button class="btn btn-md btn-danger">SUBSCRIBE</button>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="col-md-6 column">
+                        <div class="footer-social-btns">
+                           <h4 class="footer-bar-title">Stay In <span>Touch</span></h4>
+                           <div class="social">
+                              <a itemprop="url" target="_blank" href="https://twitter.com/mohanfoundation" title=""><i class="fa fa-twitter"></i></a>
+                              <a itemprop="url" target="_blank" href="https://www.facebook.com/pages/Mohan-Foundation/239983060819" title=""><i class="fa fa-facebook"></i></a>
+                              <a itemprop="url" target="_blank" href="https://www.youtube.com/subscription_center?add_user=mohanfoundation" title=""><i class="fa fa-youtube"></i></a>
+                              <a itemprop="url" target="_blank" href="https://www.instagram.com/mohanfound/" title=""><i class="fa fa-instagram"></i></a>
+                              <a itemprop="url" target="_blank" href="https://www.linkedin.com/company/mohan-foundation/" title=""><i class="fa fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bottom-bar">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12 column">
+                        <div class="bottom-links mob-center">
+                           <a href="https://www.mohanfoundation.org/unsubscribe.asp">Unsubscribe</a>
+                           <a href="https://www.mohanfoundation.org/privacy-policy.asp">Privacy Policy</a>
+                           <a href="https://www.mohanfoundation.org/terms-of-use.asp">Terms and conditions</a>
+                           <a href="https://www.mohanfoundation.org/images/MF-POSH-Policy-WRL.pdf">POSH Policy</a>
+                           <a href="https://www.mohanfoundation.org/registration-documents.asp">Organisation Registration Documents</a>
+                        </div>
+                     </div>
+                     <div class="col-md-12 column" style="padding-top:10px;">
+                        <p>© Copyright MOHAN Foundation 2021, All Rights Reserved. Hosting and Technology support for the past 20 years for <a href="https://www.mohanfoundation.org" style="color:#9db099;">www.mohanfoundation.org</a> website is being provided by <a href="https://www.medindia.net" style="color:#9db099;" target="_blank">www.medindia.net</a> - a large health website.</p>
+                        <p style="padding-top: 10px;"><strong>Disclaimer: </strong>The content of the site is for information purpose only. Always seek the advice of your physician or other qualified healthcare professional regarding any questions you may have about a medical condition. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+         </script><script src="https://ssl.google-analytics.com/ga.js" type="text/javascript"></script><script src="index_files/ga.js" type="text/javascript"></script>
+         <script type="text/javascript">
+            var pageTracker = _gat._getTracker("UA-5394455-1");
+            pageTracker._trackPageview();
+         </script>
+         <script src="https://www.mohanfoundation.org/includes-rwd/js/bootstrap.min.js"></script>
+         <script>
+            $('#myCarousel').carousel({
+            	interval:   8000
+            });
+            $('#myCarouse2').carousel({
+            	interval:   8000
+            });
+            $('#myCarouse3').carousel({
+            	interval:   8000
+            });
+              $(function () {
+               $('#myTab a:last').tab('show')
+             })
+         </script>
+         <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "WebSite",
+              "url": "https://www.mohanfoundation.org/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.mohanfoundation.org/search-result.asp?cx=partner-pub-4864473589052117:lvjl4u-nzwc&cof=FORID:10&ie=ISO-8859-1&sa=Search&q={search_term}",
+                "query-input": "required name=search_term"
+              }
+            }
+         </script>
+         <style>
+            .alertpop {display:none ; position: fixed;	top: 50%;left: 50%;	transform: translate(-50%, -50%);	
+            width: 30%; z-index: 1000;  background-color: #fff;}
+            #alertpop1 {
+            -webkit-box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+            box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+            }
+            @media screen and (max-width: 768px){
+            .alertpop { width: 100%; }
+            }
+            .alertpop .panel-title{font-size:30px}
+            /*.alertpop a,
+            .alertpop a:visited {
+            text-decoration: none;
+            color: #FFF;
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+            }
+            .alertpop a:hover,
+            .alertpop a:active {
+            text-decoration: underline;
+            }
+            .alertpop a,
+            .alertpop a:visited {
+            color: #1abc9c;
+            }*/
+            .alertpop p {
+            margin: 1em 0;
+            text-align:center;
+            }
+            .alertpop p+p+p {
+            font-size: 60%;
+            }
+            .btn-prem{background-color: #9a161a;  border-color: #911419; color:#fff; padding:5px;}
+            .alertpop a:hover{color:#fff;}
+         </style>
+         <script>
+            /*function hidepopup()
+            {
+            $('#alertpop1').hide();
+            }
+            $(document).ready(function(){           
+                setTimeout(function() {$('#alertpop1').show();}, 
+                      1000);
+               }); */
+         </script>
+         <script>
+            function createNoty(message, type) {
+                var html = '<div><div class="alert alert-' + type + ' alert-dismissable page-alert">';    
+                html += message;
+                html += '</div></div>';    
+                $(html).hide().appendTo('#noty-holder').slideDown();
+            };
+            
+            $(function(){
+            	var x = readCookie('cookie_policy'); 
+            	if(x==null){
+                 createNoty('<div>  This site uses cookies to deliver our services. By using our site, you acknowledge that you have read and understand our <a href="/privacy-policy.asp#Cookies" target="_blank">Cookie Policy</a>, <a href="/privacy-policy.asp" target="_blank">Privacy Policy</a>, and our <a href="/terms-of-use.asp" target="_blank">Terms of Use</a>. <p class="ctas"><span class="cookie__cta cta__agree close-ii" onClick="checkCookies();">OK, I agree</span><a href="/privacy-policy.asp" target="_blank" class="cookie__cta">No, give me more info</a></p></div>');
+             
+              
+                $('.page-alert .close').click(function(e) { 
+                    e.preventDefault();
+                    $(this).closest('.page-alert').slideUp();
+                });
+            	
+            	 $('.page-alert .close-ii').click(function(e) {
+                    e.preventDefault();
+                    $(this).closest('.page-alert').slideUp();
+                });
+            	}
+            });
+            function closeCookies(){
+            	createCookie('cookie_policy','NotAgree',''); 
+            }
+            function checkCookies(){	
+            	 createCookie('cookie_policy','agree','30'); 
+            }
+            function createCookie(name,value,days) {
+                var expires = "";
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days*24*60*60*1000));
+                    expires = "; expires=" + date.toUTCString();
+                }
+                document.cookie = name + "=" + value + expires + "; path=/";
+            }
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for(var i=0;i < ca.length;i++) {
+                    var c = ca[i];
+                    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+                }
+                return null;
+            }
+            
+            function eraseCookie(name) {
+                createCookie(name,"",-1);
+            }
+         </script>
+         <input type="hidden" name="track" value="test">
+      </div>
+      </df-messenger>
+      <div class="betternet-wrapper"></div>
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/messenger-internal.min.js?v=4"></script>
+   </body>
+   <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>
