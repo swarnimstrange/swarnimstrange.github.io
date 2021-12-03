@@ -29,9 +29,7 @@
 	    var shit = new CSSStyleSheet;
             // manage box height from here
             sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 520px }`);
-	    shit.replaceSync( `div.chat-wrapper { bottom: 85px }`);
             $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-	    $r2.shadowRoot.adoptedStyleSheets = [ shit ];
       		  var sheet = new CSSStyleSheet;
 			      sheet.replaceSync( `button#widgetIcon{ right: 30px }`)
 			      $r1.shadowRoot.adoptedStyleSheets = [ sheet ];
