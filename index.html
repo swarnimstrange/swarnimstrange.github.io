@@ -27,7 +27,8 @@
             $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
             var sheet = new CSSStyleSheet;
             // manage box height from here
-            sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 518px }`);
+            sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 535px }`);
+	    sheet.replaceSync( `div.chat-wrapper { bottom: 85px }`);
             $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
       		  var sheet = new CSSStyleSheet;
 			      sheet.replaceSync( `button#widgetIcon{ right: 30px }`)
