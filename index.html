@@ -2,7 +2,8 @@
 <html data-env="healthinfo" lang="en">
    <head>
       <title>MOHAN Foundation - Contact Us</title>
-      <div>
+      
+	<div>
    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger agent-id='766c04f3-4d40-48df-8a53-97493633b06d' chat-icon='https://i.ibb.co/GWZFGBJ/mf-small.png' chat-title='🎗 How can I help you?' intent='WELCOME' language-code='en'
     ></df-messenger>
@@ -18,7 +19,11 @@
 </style>
 
 <style id="df-messenger-chat">
-div.chat-wrapper[opened="true"] { height: 73%; }
+div.chat-wrapper[opened="true"] { height: 75%; }
+</style>
+
+<style id="df-messenger-titlebar">
+@media (min-width: 501px) { #minimizeIcon { visibility: visible !important; }} }
 </style>
 
 <style id="df-messenger">
@@ -29,16 +34,22 @@ button#widgetIcon {right: 30px;}
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>
     $(document).ready(function() {
-	    
+    
+    
+
     window.addEventListener('dfMessengerLoaded', function (event) {
         $r1 = document.querySelector("df-messenger");
         $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+        $r4 = $r2.shadowRoot.querySelector("df-messenger-titlebar");
 
-	var element1 = document.getElementById("df-messenger-chat");
+		var element1 = document.getElementById("df-messenger-chat");
         $r2.shadowRoot.append(element1);
+        
+		var element2 = document.getElementById("df-messenger-titlebar");
+        $r4.shadowRoot.append(element2);
 
-        var element3 = document.getElementById("df-messenger");
-        $r1.shadowRoot.append(element3);
+        var element5 = document.getElementById("df-messenger");
+        $r1.shadowRoot.append(element5);
 
 
 
@@ -48,7 +59,8 @@ button#widgetIcon {right: 30px;}
 //chat-icon="https://storage.googleapis.com/cloudprod-apiai/fa3f10f9-1ef8-4985-b724-a083a6b6dd23_x.png"
 
 </script>
-</div>
+</div>   
+	   
       <meta name="description" content="MOHAN Foundation - Contact Us.">
       <meta name="keywords" content="Contact Us, MOHAN Foundation Locations,  MOHAN Foundation">
 	   
