@@ -3,7 +3,80 @@
    <head>
       <title>MOHAN Foundation - Contact Us</title>
       
-	
+	<div>
+	    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1">
+ 
+</script>
+
+<df-messenger 
+agent-id='766c04f3-4d40-48df-8a53-97493633b06d' 
+chat-icon='https://i.ibb.co/GWZFGBJ/mf-small.png' 
+chat-title='🎗 How can I help you?' 
+intent='WELCOME' 
+language-code='en'>
+</df-messenger>
+
+<style id="df-messenger-chat">
+div.chat-wrapper[opened="true"] { height: 420px; width: 300px; }
+</style>
+
+<style id="df-messenger-titlebar">
+@media (min-width: 501px) { #minimizeIcon { visibility: visible !important; }} #dfTitlebar{ font-size:0.9em; }
+</style>
+
+<style id="df-message-list">
+#messageList .message {font-size:0.9em !important;}
+         #messageList .message.bot-message {margin-right: 20px ;} 
+         #messageList .message.user-message {margin-left: 20px; margin-top: 15px; margin-bottom: 6px;} 
+         .message-list-wrapper.minimized #messageList {margin-right: -15px;} 
+         .message-list-wrapper.minimized #dismissIcon {padding: 1px}
+</style>
+
+<style id="df-messenger-user-input">
+.input-container input{font-size:0.9em !important;}
+</style>
+
+<style id="df-messenger">
+button#widgetIcon .df-chat-icon {height: 56px; width: 56px; left: 0px; top:0px;}
+</style>
+
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    
+    
+
+    window.addEventListener('dfMessengerLoaded', function (event) {
+        $r1 = document.querySelector("df-messenger");
+        $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+        $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+        $r4 = $r2.shadowRoot.querySelector("df-messenger-titlebar");
+        $r5 = $r2.shadowRoot.querySelector("df-message-list");
+        $r6 = $r1.shadowRoot.querySelector("df-message-list");
+
+		var element1 = document.getElementById("df-messenger-chat");
+        $r2.shadowRoot.append(element1);
+        
+		var element2 = document.getElementById("df-messenger-titlebar");
+        $r4.shadowRoot.append(element2);
+
+        var element3 = document.getElementById("df-message-list");
+        $r5.shadowRoot.append(element3);
+
+        var element4 = document.getElementById("df-messenger-user-input");
+        $r3.shadowRoot.append(element4);
+
+        var element5 = document.getElementById("df-messenger");
+        $r1.shadowRoot.append(element5);
+
+
+   
+    });
+});
+
+</script>
+</div>
 	   
       <meta name="description" content="MOHAN Foundation - Contact Us.">
       <meta name="keywords" content="Contact Us, MOHAN Foundation Locations,  MOHAN Foundation">
