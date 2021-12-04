@@ -22,7 +22,7 @@ div.chat-wrapper[opened="true"] { height: 73%; }
 </style>
 
 <style id="df-messenger-titlebar">
-@media (min-width: 501px) { #minimizeIcon { visibility: visible !important; }} }
+@media (min-width: 501px) { #minimizeIcon { visibility: visible !important; }}
 </style>
 
 <style id="df-messenger">
@@ -33,9 +33,7 @@ button#widgetIcon {right: 30px;}
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>
     $(document).ready(function() {
-    
-    
-
+	    
     window.addEventListener('dfMessengerLoaded', function (event) {
         $r1 = document.querySelector("df-messenger");
         $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
