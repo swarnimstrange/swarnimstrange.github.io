@@ -21,10 +21,6 @@
 div.chat-wrapper[opened="true"] { height: 73%; }
 </style>
 
-<style id="df-messenger-titlebar">
-{ #minimizeIcon { visibility: visible !important; }}
-</style>
-
 <style id="df-messenger">
 button#widgetIcon {right: 30px;}
 </style>
@@ -37,13 +33,9 @@ button#widgetIcon {right: 30px;}
     window.addEventListener('dfMessengerLoaded', function (event) {
         $r1 = document.querySelector("df-messenger");
         $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-	$r3 = $r2.shadowRoot.querySelector("df-messenger-titlebar");
 
 	var element1 = document.getElementById("df-messenger-chat");
         $r2.shadowRoot.append(element1);
-	    
-	var element2 = document.getElementById("df-messenger-titlebar");
-        $r3.shadowRoot.append(element2);
 
         var element3 = document.getElementById("df-messenger");
         $r1.shadowRoot.append(element3);
