@@ -16,27 +16,48 @@
    		--df-messenger-user-message: #d9ffc0;     
   }
 </style>
-    <!-- Jquery CDN -->
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-    <script>
-        //To minimise the height of chatbox
-        $(document).ready(function() {
-            window.addEventListener('dfMessengerLoaded', function (event) {
-            $r1 = document.querySelector("df-messenger");
-            $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-            $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
-            var sheet = new CSSStyleSheet;
-	    var shit = new CSSStyleSheet;
-            // manage box height from here
-            sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 518px }`);
-            $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-      		  var sheet = new CSSStyleSheet;
-			      sheet.replaceSync( `button#widgetIcon{ right: 30px }`)
-			      $r1.shadowRoot.adoptedStyleSheets = [ sheet ];
-            });
-        });
-    </script>
-	  </div>
+
+<style id="df-messenger-chat">
+div.chat-wrapper[opened="true"] { height: 75%; }
+</style>
+
+<style id="df-messenger-titlebar">
+@media (min-width: 501px) { #minimizeIcon { visibility: visible !important; }} }
+</style>
+
+<style id="df-messenger">
+button#widgetIcon {right: 30px;}
+</style>
+
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    
+    
+
+    window.addEventListener('dfMessengerLoaded', function (event) {
+        $r1 = document.querySelector("df-messenger");
+        $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+        $r4 = $r2.shadowRoot.querySelector("df-messenger-titlebar");
+
+		var element1 = document.getElementById("df-messenger-chat");
+        $r2.shadowRoot.append(element1);
+        
+		var element2 = document.getElementById("df-messenger-titlebar");
+        $r4.shadowRoot.append(element2);
+
+        var element5 = document.getElementById("df-messenger");
+        $r1.shadowRoot.append(element5);
+
+
+
+        // MORE OF YOUR DIALOGFLOW MESSENGER CODE    
+    });
+});
+
+</script>
+</div>
       <meta name="description" content="MOHAN Foundation - Contact Us.">
       <meta name="keywords" content="Contact Us, MOHAN Foundation Locations,  MOHAN Foundation">
 	   
