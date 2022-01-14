@@ -29,6 +29,9 @@ intent='WELCOME'
 language-code='en'>
 </df-messenger>	   
 
+<script>
+setTimeout(function(){ document.querySelector("df-messenger").shadowRoot.querySelector("df-messenger-chat").shadowRoot.querySelector(".input-box-wrapper > input").placeholder="New placeholder text” }, 1000);
+</script>		
 	   
 <style id="df-messenger-chat">
 div.chat-wrapper[opened="true"] { height: 75%; }
