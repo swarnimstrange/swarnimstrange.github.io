@@ -40,11 +40,7 @@ div.chat-wrapper[opened="true"] { height: 75%; }
 		
 <style id="df-messenger">
 button#widgetIcon {right:20px;}
-</style>
-		
-<div id="input-box-wrapper">
-placeholder="Say Hi..."
-</div>		
+</style>		
 
 
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -66,7 +62,7 @@ placeholder="Say Hi..."
 	var element2 = document.getElementById("df-messenger-titlebar");
         $r4.shadowRoot.append(element2);
 	    
-	var element3 = document.getElementById("input-box-wrapper");
+	var element3 = document.shadowRoot.querySelector(".input-box-wrapper > input").placeholder="New placeholder text”
         $r3.shadowRoot.append(element3);   
     });
 });
