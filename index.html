@@ -29,9 +29,7 @@ intent='WELCOME'
 language-code='en'>
 </df-messenger>	   
 
-<script>
-setTimeout(function(){ document.querySelector("df-messenger").shadowRoot.querySelector("df-messenger-chat").shadowRoot.querySelector(".input-box-wrapper > input").placeholder="New placeholder text” }, 1000);
-</script>		
+		
 	   
 <style id="df-messenger-chat">
 div.chat-wrapper[opened="true"] { height: 75%; }
@@ -63,6 +61,9 @@ button#widgetIcon {right:20px;}
         
 	var element2 = document.getElementById("df-messenger-titlebar");
         $r4.shadowRoot.append(element2); 
+	
+	document.querySelector("df-messenger").shadowRoot.querySelector("df-messenger-chat").shadowRoot.querySelector(".input-box-wrapper > input").placeholder="New placeholder text”    
+	    
     });
 });
 
