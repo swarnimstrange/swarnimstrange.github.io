@@ -25,10 +25,13 @@
 agent-id='766c04f3-4d40-48df-8a53-97493633b06d' 
 chat-icon='https://i.ibb.co/GWZFGBJ/mf-small.png' 
 chat-title='🎗 How can I help you?' 
-intent='WELCOME'
-placeholder = 'Type "Hi" to get options again'	  
+intent='WELCOME'	  
 language-code='en'>
 </df-messenger>	   
+
+<script>
+setTimeout(function(){ document.querySelector("df-messenger").shadowRoot.querySelector("df-messenger-chat").shadowRoot.querySelector("df-messenger-user-input").shadowRoot.querySelector(".input-box-wrapper > input").placeholder="Type 'Hi' to get options again” }, 1000);
+</script>
 	   
 <style id="df-messenger-chat">
 div.chat-wrapper[opened="true"] { height: 75%; }
@@ -40,7 +43,7 @@ div.chat-wrapper[opened="true"] { height: 75%; }
 		
 <style id="df-messenger">
 button#widgetIcon {right:20px;}
-</style>
+</style>		
 
 
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
