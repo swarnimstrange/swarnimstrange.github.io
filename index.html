@@ -43,6 +43,9 @@ div.chat-wrapper[opened="true"] { height: 75%; }
 button#widgetIcon {right:20px;}
 </style>		
 
+<style id="df-messenger-user-input">
+<input type="text" placeholder="Ask something...">
+</style>		
 
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>
@@ -51,7 +54,8 @@ button#widgetIcon {right:20px;}
     window.addEventListener('dfMessengerLoaded', function (event) {
         $r1 = document.querySelector("df-messenger");
         $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-        $r4 = $r2.shadowRoot.querySelector("df-messenger-titlebar");   
+        $r4 = $r2.shadowRoot.querySelector("df-messenger-titlebar");
+	$r3 = $r2.shadowRoot.querySelector("df-messenger-user-input");     
 	    
 	var element5 = document.getElementById("df-messenger");
         $r1.shadowRoot.append(element5);
@@ -61,6 +65,9 @@ button#widgetIcon {right:20px;}
         
 	var element2 = document.getElementById("df-messenger-titlebar");
         $r4.shadowRoot.append(element2); 
+	    
+	var element3 = document.getElementById("df-messenger-user-input");
+        $r3.shadowRoot.append(element3);    
 	
 	document.querySelector("df-messenger").shadowRoot.querySelector("df-messenger-chat").shadowRoot.querySelector(".input-box-wrapper > input").placeholder="New placeholder text”    
 	    
