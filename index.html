@@ -25,7 +25,8 @@
 agent-id='766c04f3-4d40-48df-8a53-97493633b06d' 
 chat-icon='https://i.ibb.co/GWZFGBJ/mf-small.png' 
 chat-title='🎗 How can I help you?' 
-intent='WELCOME' 
+intent='WELCOME'
+placeholder = 'Type "Hi" to get options again'	  
 language-code='en'>
 </df-messenger>	   
 	   
@@ -50,6 +51,7 @@ button#widgetIcon {right:20px;}
         $r1 = document.querySelector("df-messenger");
         $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
         $r4 = $r2.shadowRoot.querySelector("df-messenger-titlebar");
+	$r4 = $r2.shadowRoot.querySelector("df-messenger-titlebar");
 	    
 	var element5 = document.getElementById("df-messenger");
         $r1.shadowRoot.append(element5);
