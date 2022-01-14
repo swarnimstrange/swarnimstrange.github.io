@@ -29,8 +29,6 @@ intent='WELCOME'
 language-code='en'>
 </df-messenger>	   
 
-<script>
-document.querySelector("body > df-messenger").shadowRoot.querySelector("div > df-messenger-chat").shadowRoot.querySelector("div > df-messenger-user-input").shadowRoot.querySelector("div > div.input-box-wrapper > input[type=text]").placeholder = "THE-TEXT-YOU-WANT-TO-ADD”</script>
 	   
 <style id="df-messenger-chat">
 div.chat-wrapper[opened="true"] { height: 75%; }
@@ -45,8 +43,8 @@ button#widgetIcon {right:20px;}
 </style>
 		
 <div id="input-box-wrapper">
-<input type="text" placeholder="Say Hi...">
-</style>		
+placeholder="Say Hi..."
+</div>		
 
 
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
